@@ -1,0 +1,32 @@
+name: Update clash-rule.yaml
+
+on:
+  schedule:
+    - cron:  '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Show python version
+      run: python3 --version
+    - name: Run a script
+      run: python3 update-rule.py
+    - name: Commit changes oisd full
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add rule_oisd-full.yaml
+        git commit -a -m "Automatic update rule_oisd-full.yaml"
+    - name: Commit changes oisd small
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add rule_oisd-small.yaml
+        git commit -a -m "Automatic update rule_oisd-small.yaml"
+    - name: Push changes
+      run: |
+        git push -u origin main
