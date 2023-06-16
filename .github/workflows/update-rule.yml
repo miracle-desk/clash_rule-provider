@@ -15,18 +15,11 @@ jobs:
       run: python3 --version
     - name: Run a script
       run: python3 update-rule.py
-    - name: Commit changes oisd full
+    - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add rule_oisd-full.yaml
-        git commit -a -m "Automatic update rule_oisd-full.yaml"
-    - name: Commit changes oisd small
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add rule_oisd-small.yaml
-        git commit -a -m "Automatic update rule_oisd-small.yaml"
+        git commit -a -m "Automatic update rule.yaml"
     - name: Push changes
       run: |
         git push -u origin main
