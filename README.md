@@ -1,6 +1,7 @@
 # clash-rule [test]
 
 Penulisan hosts AdguardHome:
+
 ||example.org:blokir akses ke example.org; pada penulisan clash ini sama dengan - DOMAIN,
 ||example.org^:blokir akses ke example.org dan seluruh subdomainnya; pada penulisan clash ini sama dengan - DOMAIN-SUFFIX,
 
