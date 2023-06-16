@@ -31,8 +31,4 @@ if update_rule_oisd_full:
 update_rule_oisd_small = get_rule_oisd_small("https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt")
 if update_rule_oisd_small:
     with open("rule_oisd-small.yaml", "w", encoding='utf-8') as f:
-<<<<<<< HEAD
         f.write("\n".join(update_rule_oisd_small))
-=======
-        f.write("\n".join(update_rule_oisd_small))
->>>>>>> ae817bf7a007f368d8546fddf836f50bdf741afb
