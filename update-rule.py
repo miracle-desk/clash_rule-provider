@@ -32,13 +32,8 @@ def get_rule_AdAway(url):
         return update_rule_AdAway
     except Exception as e:
         print(e)
-<<<<<<< HEAD
         return None    
 
-=======
-        return None 
-    
->>>>>>> 229dcac8f08d656b6ff519b765e78ddaefe7bfa6
 update_rule_oisd_full = get_rule_oisd_full("https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt")
 if update_rule_oisd_full:
     with open("rule_oisd-full.yaml", "w", encoding='utf-8') as f:
@@ -48,16 +43,13 @@ update_rule_oisd_small = get_rule_oisd_small("https://adguardteam.github.io/Host
 if update_rule_oisd_small:
     with open("rule_oisd-small.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_oisd_small))
-<<<<<<< HEAD
 
 update_rule_AdAway = get_rule_AdAway("https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt")
 if update_rule_AdAway:
     with open("rule_AdAway.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_AdAway))    
-=======
         
 update_rule_AdAway = get_rule_AdAway("https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt")
 if update_rule_AdAway:
     with open("rule_AdAway.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_AdAway)) 
->>>>>>> 229dcac8f08d656b6ff519b765e78ddaefe7bfa6
