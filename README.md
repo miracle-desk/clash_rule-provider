@@ -25,7 +25,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_AdAway.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/my_adblock_list/main/rule_AdAway.yaml
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
     interval: 86400 # Update rules every 24 hours
   rule_custom:
     type: http
