@@ -33,7 +33,7 @@ payload:
   - DOMAIN,admob.*
   - DOMAIN,*log.droid4x.cn
   - DOMAIN,*tsdk.vivo.com.cn
-  - DOMAIN,*.mmstat.com
+  - DOMAIN-SUFFIX,*.mmstat.com
   - DOMAIN,f-log*.grammarly.io
   - DOMAIN,ad-*.wikawika.xyz
   - DOMAIN,ablen*.tk
