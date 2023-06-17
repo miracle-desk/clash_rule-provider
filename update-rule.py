@@ -23,7 +23,7 @@ def get_rule_oisd_full(url):
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
                     domains.append(domain)
-        rules = ["  - DOMAIN-SUFFIX," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -51,7 +51,7 @@ def get_rule_oisd_small(url):
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
                     domains.append(domain)
-        rules = ["  - DOMAIN-SUFFIX," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -107,7 +107,7 @@ def get_rule_antiAD(url):
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
                     domains.append(domain)
-        rules = ["  - DOMAIN-SUFFIX," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -135,7 +135,7 @@ def get_rule_Dandelion_AntiMalware(url):
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
                     domains.append(domain)
-        rules = ["  - DOMAIN-SUFFIX," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
