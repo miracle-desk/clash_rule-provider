@@ -19,7 +19,13 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_oisd-small.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/my_adblock_list/main/rule_oisd-full.yaml
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_oisd-small.yaml
+    interval: 86400 # Update rules every 24 hours
+  rule_AdAway:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_AdAway.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
     interval: 86400 # Update rules every 24 hours
   rule_custom:
     type: http
@@ -31,5 +37,6 @@ rule-providers:
 rules:
 - RULE-SET,rule_oisd-full,REJECT
 - RULE-SET,rule_oisd-small,REJECT
+- RULE-SET,rule_AdAway,REJECT
 - RULE-SET,rule_custom,REJECT
 ```

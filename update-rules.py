@@ -162,3 +162,4 @@ update_Dandelion_AntiMalware = get_rule_Dandelion_AntiMalware("https://adguardte
 if update_Dandelion_AntiMalware:
     with open("rule_Dandelion-AntiMalware.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_Dandelion_AntiMalware))
+
