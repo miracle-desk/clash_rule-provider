@@ -5,7 +5,7 @@ def get_rule_oisd_full(url):
     try:
         r = requests.get(url)
         update_rule_oisd_full = r.text.split("\n")
-        update_rule_oisd_full = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_oisd_full if not line.startswith(('#', '!', '@', '/', '*', ':', '&'))]
+        update_rule_oisd_full = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_oisd_full if not line.startswith(('#', '!', '@', '/', ':', '&'))]
         domains = []
         ips = []
         for line in update_rule_oisd_full:
@@ -22,8 +22,12 @@ def get_rule_oisd_full(url):
                 else:
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
-                    domains.append(domain)
-        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+                    if domain.startswith("*."):
+                        domain_suffix = domain[2:] + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -33,7 +37,7 @@ def get_rule_oisd_small(url):
     try:
         r = requests.get(url)
         update_rule_oisd_small = r.text.split("\n")
-        update_rule_oisd_small = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_oisd_small if not line.startswith(('#', '!', '@', '/', '*', ':', '&'))]
+        update_rule_oisd_small = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_oisd_small if not line.startswith(('#', '!', '@', '/', ':', '&'))]
         domains = []
         ips = []
         for line in update_rule_oisd_small:
@@ -50,8 +54,12 @@ def get_rule_oisd_small(url):
                 else:
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
-                    domains.append(domain)
-        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+                    if domain.startswith("*."):
+                        domain_suffix = domain[2:] + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -61,7 +69,7 @@ def get_rule_AdAway(url):
     try:
         r = requests.get(url)
         update_rule_AdAway = r.text.split("\n")
-        update_rule_AdAway = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_AdAway if not line.startswith(('#', '!', '@', '/', '*', ':','&'))]
+        update_rule_AdAway = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_AdAway if not line.startswith(('#', '!', '@', '/', ':','&'))]
         domains = []
         ips = []
         for line in update_rule_AdAway:
@@ -78,8 +86,12 @@ def get_rule_AdAway(url):
                 else:
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
-                    domains.append(domain)
-        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+                    if domain.startswith("*."):
+                        domain_suffix = domain[2:] + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -89,7 +101,7 @@ def get_rule_antiAD(url):
     try:
         r = requests.get(url)
         update_rule_antiAD = r.text.split("\n")
-        update_rule_antiAD = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_antiAD if not line.startswith(('#', '!', '@', '/', '*', ':','&'))]
+        update_rule_antiAD = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_antiAD if not line.startswith(('#', '!', '@', '/', ':','&'))]
         domains = []
         ips = []
         for line in update_rule_antiAD:
@@ -106,8 +118,12 @@ def get_rule_antiAD(url):
                 else:
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
-                    domains.append(domain)
-        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+                    if domain.startswith("*."):
+                        domain_suffix = domain[2:] + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
@@ -117,7 +133,7 @@ def get_rule_Dandelion_AntiMalware(url):
     try:
         r = requests.get(url)
         update_Dandelion_AntiMalware = r.text.split("\n")
-        update_Dandelion_AntiMalware = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_Dandelion_AntiMalware if not line.startswith(('#', '!', '@', '/', '*', ':', '&'))]
+        update_Dandelion_AntiMalware = [line.replace("||", "").replace("|", "").replace("127.0.0.1", "").replace("^", "") for line in update_Dandelion_AntiMalware if not line.startswith(('#', '!', '@', '/', ':','*', '&'))]
         domains = []
         ips = []
         for line in update_Dandelion_AntiMalware:
@@ -134,8 +150,12 @@ def get_rule_Dandelion_AntiMalware(url):
                 else:
                     # Jika bukan alamat IP, itu kemungkinan adalah domain
                     domain = line.split("$")[0].strip()
-                    domains.append(domain)
-        rules = ["  - DOMAIN," + domain for domain in domains] + ["  - IP-CIDR," + ip for ip in ips]
+                    if domain.startswith("*."):
+                        domain_suffix = domain[2:] + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
         rules.insert(0, "payload:")
         return rules
     except Exception as e:
