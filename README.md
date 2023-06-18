@@ -1,9 +1,5 @@
 # clash-rule [test]
-# Penulisan hosts AdguardHome:
-```
-||example.org:blokir akses ke example.org; pada penulisan clash ini sama dengan - DOMAIN,
-||example.org^:blokir akses ke example.org dan seluruh subdomainnya; pada penulisan clash ini sama dengan - DOMAIN-SUFFIX,
-```
+
 Note : Untuk rule OISD pilih salah satu saja, karena dalam OISD full sudah include OISD small. Sebagai ilustrasi rule OISD small cocok untuk adblock ringan tidak begitu agresive
 
 Untuk menggunakan, edit `config.yaml` pada `/etc/openclash/config/config.yaml` seperti ini:
@@ -27,6 +23,18 @@ rule-providers:
     path: "./rule_provider/rule_AdAway.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
     interval: 86400 # Update rules every 24 hours
+  rule_antiAD:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_CHN-antiAD.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_CHN-antiAD.yaml
+    interval: 86400 # Update rules every 24 hours
+  rule_antiMalware:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_Dandelion-AntiMalware.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Dandelion-AntiMalware.yaml
+    interval: 86400 # Update rules every 24 hours
   rule_custom:
     type: http
     behavior: classical
@@ -38,5 +46,7 @@ rules:
 - RULE-SET,rule_oisd-full,REJECT
 - RULE-SET,rule_oisd-small,REJECT
 - RULE-SET,rule_AdAway,REJECT
+- RULE-SET,rule_antiAD,REJECT
+- RULE-SET,rule_antiMalware,REJECT
 - RULE-SET,rule_custom,REJECT
 ```
