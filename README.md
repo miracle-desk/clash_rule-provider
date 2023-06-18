@@ -1,4 +1,4 @@
-# clash-rule [test]
+# clash-rule [test] generate form AdGuard Home only
 
 Note : Untuk rule OISD pilih salah satu saja, karena dalam OISD full sudah include OISD small. Sebagai ilustrasi rule OISD small cocok untuk adblock ringan tidak begitu agresive
 
