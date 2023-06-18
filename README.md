@@ -68,5 +68,6 @@ rules:
 - RULE-SET,rule_antiAD,REJECT
 - RULE-SET,rule_antiMalware,REJECT
 - RULE-SET,rule_Malicious-URLhaus,REJECT
+- RULE-SET,rule_Phishing-URL,REJECT
 - RULE-SET,rule_custom,REJECT
 ```
