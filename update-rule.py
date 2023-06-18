@@ -26,10 +26,10 @@ def get_AdGuardDNS_filter(url):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX," + domain_suffix)                       
                     elif domain.startswith("."):
-                        domain_suffix = domain
+                        domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
                     elif domain.startswith("://"):
-                        domain_suffix = domain
+                        domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
                     else:
                         domains.append("  - DOMAIN," + domain)
@@ -233,11 +233,11 @@ def get_rule_Dandelion_AntiMalware(url):
 def get_rule_Malicious_URLhaus(url):
     try:
         r = requests.get(url)
-        update_Malicious_URLhaus = r.text.split("\n")
-        update_Malicious_URLhaus = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1", "").replace("^", "") for line in update_Malicious_URLhaus if not line.startswith(('#', '!', '/', '@', '-', '&'))]
+        update_rule_Malicious_URLhaus = r.text.split("\n")
+        update_rule_Malicious_URLhaus = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_Malicious_URLhaus if not line.startswith(('#', '!', '/', '@', '-', '&'))]
         domains = []
         ips = []
-        for line in update_Malicious_URLhaus:
+        for line in update_rule_Malicious_URLhaus:
             if line:
                 if line[0].isdigit():
                     # Jika baris dimulai dengan angka, itu kemungkinan adalah alamat IP
@@ -258,7 +258,45 @@ def get_rule_Malicious_URLhaus(url):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
                     elif domain.startswith("://"):
-                        domain_suffix = domain +""
+                        domain_suffix = domain + ""
+                        domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+                    else:
+                        domains.append("  - DOMAIN," + domain)
+        rules = domains + ["  - IP-CIDR," + ip for ip in ips]
+        rules.insert(0, "payload:")
+        return rules
+    except Exception as e:
+        print(e)
+        return None
+def get_rule_Phishing_URL(url):
+    try:
+        r = requests.get(url)
+        update_rule_Phishing_URL = r.text.split("\n")
+        update_rule_Phishing_URL = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1", "").replace("^", "") for line in update_rule_Phishing_URL if not line.startswith(('#', '!', '/', '@', '-', '&'))]
+        domains = []
+        ips = []
+        for line in update_rule_Phishing_URL:
+            if line:
+                if line[0].isdigit():
+                    # Jika baris dimulai dengan angka, itu kemungkinan adalah alamat IP
+                    try:
+                        # Coba parsing IP dengan modul ipaddress
+                        ip = ipaddress.ip_network(line.strip().split('$')[0])
+                        ips.append(ip.with_prefixlen)
+                    except ValueError:
+                        # Jika parsing gagal, abaikan baris ini
+                        pass
+                else:
+                    # Jika bukan alamat IP, itu kemungkinan adalah domain
+                    domain = line.split("$")[0].strip()
+                    if domain.startswith("*."):
+                        domain_suffix = domain + ""
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)                       
+                    elif domain.startswith("."):
+                        domain_suffix = domain + ""
+                        domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.startswith("://"):
+                        domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
                     else:
                         domains.append("  - DOMAIN," + domain)
@@ -293,7 +331,11 @@ update_Dandelion_AntiMalware = get_rule_Dandelion_AntiMalware("https://adguardte
 if update_Dandelion_AntiMalware:
     with open("rule_Dandelion-AntiMalware.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_Dandelion_AntiMalware))
-update_Malicious_URLhaus = get_rule_Malicious_URLhaus("https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt")
-if update_Malicious_URLhaus:
+update_rule_Malicious_URLhaus = get_rule_Malicious_URLhaus("https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt")
+if update_rule_Malicious_URLhaus:
     with open("rule_Malicious-URLhaus.yaml", "w", encoding='utf-8') as f:
-        f.write("\n".join(update_Malicious_URLhaus))
+        f.write("\n".join(update_rule_Malicious_URLhaus))
+update_rule_Phishing_URL = get_rule_Phishing_URL("https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt")
+if update_rule_Phishing_URL:
+    with open("rule_Phishing-URL.yaml", "w", encoding='utf-8') as f:
+        f.write("\n".join(update_rule_Phishing_URL))
