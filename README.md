@@ -9,7 +9,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_ABPindo.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_ABPindo.yaml
     interval: 86400 # Update rules every 24 hours
   rule_AdAway:
     type: http
@@ -39,7 +39,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_HaGeZi-Personal.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_HaGeZi-Personal.yaml
     interval: 86400 # Update rules every 24 hours
   rule_Malicious-URLhaus:
     type: http
@@ -51,13 +51,13 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_NoCoin-filter.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_NoCoin-filter.yaml
     interval: 86400 # Update rules every 24 hours
   rule_NoTracking:
     type: http
     behavior: classical
     path: "./rule_provider/rule_NoTracking.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_NoTracking.yaml
     interval: 86400 # Update rules every 24 hours
   rule_oisd-full:
     type: http
@@ -81,13 +81,13 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_Scam-byDurableNapkin.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Scam-byDurableNapkin.yaml
     interval: 86400 # Update rules every 24 hours
-  rule_Stalkerware:
+  rule_Stalkerware: # Untuk Android+iOS
     type: http
     behavior: classical
     path: "./rule_provider/rule_Stalkerware.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Stalkerware.yaml
     interval: 86400 # Update rules every 24 hours
   rule_StevenBlackList: #block: fakenews+gambling
     type: http
@@ -98,7 +98,7 @@ rule-providers:
   rule_custom:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_oisd-small.yaml
+    url: 
     path: "./rule_provider/rule_custom.yaml"
     interval: 86400 # Update rules every 24 hours
     
