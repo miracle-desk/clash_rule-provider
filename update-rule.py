@@ -336,10 +336,9 @@ def get_rule_StevenBlackList(url):
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
-                    #Jika domain terdapat karakter tiktok, pinterest, twitter, linkedin, facebook, instagram, whatsapp maka dikategorikan sebagai DOMAIN-SUFFIX
-                    elif any(prefix in domain for prefix in ("tiktok", "pinterest", "twitter", "linkedin", "facebook","instagram", "whatsapp")):
-                        domain_suffix = domain + ""
-                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
+                    # jika domain memiliki karakter "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp" maka domain tersebut tidak akan ditambahkan
+                    elif any(prefix in domain for prefix in ("tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
+                        continue
                     else:
                         domains.append("  - DOMAIN," + domain)
         rules = domains + ["  - IP-CIDR," + ip for ip in ips]
