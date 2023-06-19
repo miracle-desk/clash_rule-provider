@@ -53,6 +53,12 @@ rule-providers:
     path: "./rule_provider/rule_Phishing-URL.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Phishing-URL.yaml
     interval: 86400 # Update rules every 24 hours
+  rule_StevenBlackList: # only block: fakenews, gambling, social
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_StevenBlackList.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_StevenBlackList.yaml
+    interval: 86400 # Update rules every 24 hours
   rule_custom:
     type: http
     behavior: classical
@@ -69,5 +75,6 @@ rules:
 - RULE-SET,rule_antiMalware,REJECT
 - RULE-SET,rule_Malicious-URLhaus,REJECT
 - RULE-SET,rule_Phishing-URL,REJECT
+- RULE-SET,rule_StevenBlackList,REJECT
 - RULE-SET,rule_custom,REJECT
 ```
