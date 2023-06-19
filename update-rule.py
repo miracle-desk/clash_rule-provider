@@ -415,7 +415,7 @@ if update_rule_Phishing_URL:
     with open("rule_Phishing-URL.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_Phishing_URL))
 
-update_rule_StevenBlackList = get_rule_StevenBlackList("https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts")
+update_rule_StevenBlackList = get_rule_StevenBlackList("https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-only/hosts")
 if update_rule_StevenBlackList:
     with open("rule_StevenBlackList.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_StevenBlackList))
