@@ -143,6 +143,9 @@ def get_rule_AdAway(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
