@@ -53,7 +53,7 @@ rule-providers:
     path: "./rule_provider/rule_Phishing-URL.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Phishing-URL.yaml
     interval: 86400 # Update rules every 24 hours
-  rule_StevenBlackList: # only block: fakenews, gambling, social (but not "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp")
+  rule_StevenBlackList: # only block: fakenews, gambling, social (unblock "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp")
     type: http
     behavior: classical
     path: "./rule_provider/rule_StevenBlackList.yaml"
