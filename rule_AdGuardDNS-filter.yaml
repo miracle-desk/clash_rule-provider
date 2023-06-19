@@ -544,8 +544,8 @@ payload:
   - DOMAIN,pushub.net
   - DOMAIN,proverbnoncommittalvault.com
   - DOMAIN,cloudaaaa.com
-  - DOMAIN,fxhpaoxqyajvmdg.
-  - DOMAIN,rgfftupf.
+  - DOMAIN-SUFFIX,fxhpaoxqyajvmdg.*
+  - DOMAIN-SUFFIX,rgfftupf.*
   - DOMAIN,zusepe.xyz
   - DOMAIN,cdn.applixir.com
   - DOMAIN,selfishmourninhabitants.com
@@ -8439,7 +8439,7 @@ payload:
   - DOMAIN,ejcet5y9ag.com
   - DOMAIN,ejdkqclkzq.com
   - DOMAIN,ejectbagsindefinite.com
-  - DOMAIN,ejghgjhhgadcdchjaada.ru.
+  - DOMAIN-SUFFIX,ejghgjhhgadcdchjaada.ru.*
   - DOMAIN,ejipaifaurga.com
   - DOMAIN,ejotdqfjazg.com
   - DOMAIN,ejpzqnqwcszfsz.com
@@ -10076,7 +10076,7 @@ payload:
   - DOMAIN,gerusiatootsie.com
   - DOMAIN,gessoesbeavers.uno
   - DOMAIN,get-here-click.xyz
-  - DOMAIN,get-me-wow.
+  - DOMAIN-SUFFIX,get-me-wow.*
   - DOMAIN,get-my-prize-n1w.live
   - DOMAIN,get-statics.live
   - DOMAIN,get-things-done.net
@@ -26944,7 +26944,7 @@ payload:
   - DOMAIN,jtbo*.nqxvevk.cn
   - DOMAIN,nasimobi.com
   - DOMAIN,wd.adcolony.xyz
-  - DOMAIN,adx-*.dbankcloud.
+  - DOMAIN-SUFFIX,adx-*.dbankcloud.*
   - DOMAIN,ad-*.appacc.dbankedge.cn
   - DOMAIN,adx-*.dbankedge.cn
   - DOMAIN,adx-*.op.dbankcloud.com.edgekey.net
@@ -27523,7 +27523,7 @@ payload:
   - DOMAIN,log.snssdk.com
   - DOMAIN,adrange.net
   - DOMAIN,dmtag.jp
-  - DOMAIN,talpa-analytics.
+  - DOMAIN-SUFFIX,talpa-analytics.*
   - DOMAIN,dna8twue3dlxq.cloudfront.net
   - DOMAIN,public.profitwell.com
   - DOMAIN,cdn.userleap.com
@@ -28333,8 +28333,8 @@ payload:
   - DOMAIN,lcs.loginfra.com
   - DOMAIN,adblock-analytics.io
   - DOMAIN,aukana.jp
-  - DOMAIN,stat.tiara.
-  - DOMAIN,track.tiara.
+  - DOMAIN-SUFFIX,stat.tiara.*
+  - DOMAIN-SUFFIX,track.tiara.*
   - DOMAIN,volvelle.tech
   - DOMAIN,audiencemanager.de
   - DOMAIN,event.getblue.io
@@ -32014,7 +32014,7 @@ payload:
   - DOMAIN,affex.org
   - DOMAIN,t.yesware.com
   - DOMAIN,tagman.britishairways.com
-  - DOMAIN,piwik.
+  - DOMAIN-SUFFIX,piwik.*
   - DOMAIN,analytics.s3.amazonaws.com
   - DOMAIN,analyticsengine.s3.amazonaws.com
   - DOMAIN,evs.sgmt.loom.com
@@ -32137,7 +32137,7 @@ payload:
   - DOMAIN,rec.banggood.com
   - DOMAIN,metrics.icloud.com
   - DOMAIN,units.knotch.it
-  - DOMAIN,sgtm.fashionunited.
+  - DOMAIN-SUFFIX,sgtm.fashionunited.*
   - DOMAIN,mercury.coupang.com
   - DOMAIN,client-telemetry.roblox.com
   - DOMAIN,ephemeralcounters.api.roblox.com
@@ -32183,7 +32183,7 @@ payload:
   - DOMAIN,stat.airdroid.com
   - DOMAIN,tracker.ranker.com
   - DOMAIN,c.salon24.pl
-  - DOMAIN,pixel.archive.
+  - DOMAIN-SUFFIX,pixel.archive.*
   - DOMAIN,cl.t3n.de
   - DOMAIN,st.bitban.com
   - DOMAIN,d1n00d49gkbray.cloudfront.net
@@ -32200,10 +32200,10 @@ payload:
   - DOMAIN,mixpanel-proxy.ted.com
   - DOMAIN,zc.adswizz.com
   - DOMAIN,collect.nature.com
-  - DOMAIN,analytics-api.dvdfab.
-  - DOMAIN,servo-report.dvdfab.
+  - DOMAIN-SUFFIX,analytics-api.dvdfab.*
+  - DOMAIN-SUFFIX,servo-report.dvdfab.*
   - DOMAIN,collector.xhwide8.com
-  - DOMAIN,collector.xhamster*.
+  - DOMAIN-SUFFIX,collector.xhamster*.*
   - DOMAIN,anonym.data.funkedigital.de
   - DOMAIN,analytics.makeitmeme.com
   - DOMAIN,harvester.cms.markiza.sk
@@ -32252,7 +32252,7 @@ payload:
   - DOMAIN,sgtm.simoahava.com
   - DOMAIN,lists.ccmbg.com
   - DOMAIN,track-srv.vietnamnet.vn
-  - DOMAIN,stats.zone-telechargement.
+  - DOMAIN-SUFFIX,stats.zone-telechargement.*
   - DOMAIN,stats.tirexo.blue
   - DOMAIN,intake-analytics.wikimedia.org
   - DOMAIN,tracking.univtec.com
@@ -32644,7 +32644,7 @@ payload:
   - DOMAIN,bt.mediaimpact.de
   - DOMAIN,bt.phorm.com
   - DOMAIN,buf.lemonde.fr
-  - DOMAIN,button.blogs.yandex.
+  - DOMAIN-SUFFIX,button.blogs.yandex.*
   - DOMAIN,bwb101.goo.ne.jp
   - DOMAIN,bzclk.baidu.com
   - DOMAIN,c.bigmir.net
@@ -32704,20 +32704,20 @@ payload:
   - DOMAIN,cmt.setrowid.com
   - DOMAIN,cnt.alawar.com
   - DOMAIN,cnt.cerber.rambler.ru
-  - DOMAIN,cnt.hd21.
+  - DOMAIN-SUFFIX,cnt.hd21.*
   - DOMAIN,cnt.inforotor.net
   - DOMAIN,cnt.logoslovo.ru
   - DOMAIN,cnt.nicemix.com
   - DOMAIN,cnt.nov.ru
-  - DOMAIN,cnt.nuvid.
-  - DOMAIN,cnt.proporn.
+  - DOMAIN-SUFFIX,cnt.nuvid.*
+  - DOMAIN-SUFFIX,cnt.proporn.*
   - DOMAIN,cnt.rambler.ru
   - DOMAIN,cnt.ramlife.ru
-  - DOMAIN,cnt.tubeon.
-  - DOMAIN,cnt.vivatube.
-  - DOMAIN,cnt.winporn.
+  - DOMAIN-SUFFIX,cnt.tubeon.*
+  - DOMAIN-SUFFIX,cnt.vivatube.*
+  - DOMAIN-SUFFIX,cnt.winporn.*
   - DOMAIN,cnt.xhamster.com
-  - DOMAIN,cnt.yeptube.
+  - DOMAIN-SUFFIX,cnt.yeptube.*
   - DOMAIN,cnt2.stroeerdp.de
   - DOMAIN,cntcerber.rambler.ru
   - DOMAIN,code.lockbot.net
@@ -32739,7 +32739,7 @@ payload:
   - DOMAIN,collector.apester.com
   - DOMAIN,collector.cdp.cnn.com
   - DOMAIN,collector.githubapp.com
-  - DOMAIN,collector.hamsterix.
+  - DOMAIN-SUFFIX,collector.hamsterix.*
   - DOMAIN,collector.ksax.com
   - DOMAIN,collector.kstptv5.com
   - DOMAIN,collector.megaxh.com
@@ -33094,7 +33094,7 @@ payload:
   - DOMAIN,gtm.beiersdorf.com
   - DOMAIN,gtm.udemy.com
   - DOMAIN,gtm.vanmoof.com
-  - DOMAIN,gtmdev.jabra.
+  - DOMAIN-SUFFIX,gtmdev.jabra.*
   - DOMAIN,guq9.vente-unique.it
   - DOMAIN,happyunicorns.gutefrage.net
   - DOMAIN,harvester.eu.square-enix.com
@@ -34162,7 +34162,7 @@ payload:
   - DOMAIN,w.oix.net
   - DOMAIN,w1jesu6.package12.com
   - DOMAIN,w88.espn.com
-  - DOMAIN,wa.gmx.
+  - DOMAIN-SUFFIX,wa.gmx.*
   - DOMAIN,wa.mail.com
   - DOMAIN,wa.ui-portal.de
   - DOMAIN,wa.web.de
@@ -34437,7 +34437,7 @@ payload:
   - DOMAIN,events.mz.unity3d.com
   - DOMAIN,metrics.plaid.com
   - DOMAIN,mon*-platform-*.tiktokv.com
-  - DOMAIN,grs.dbankcloud.
+  - DOMAIN-SUFFIX,grs.dbankcloud.*
   - DOMAIN,logservice-*.platform.dbankcloud.cn
   - DOMAIN,ubacollect-*.cloud.dbankcloud.cn
   - DOMAIN,datacollector-*.dt.dbankcloud.cn
@@ -34631,8 +34631,8 @@ payload:
   - DOMAIN,umengjmacs.m.taobao.com
   - DOMAIN,umengacs.m.taobao.com
   - DOMAIN,analytics-api.liveapp.com
-  - DOMAIN,log-collector.shopee.
-  - DOMAIN,seller-log-collector.shopee.
+  - DOMAIN-SUFFIX,log-collector.shopee.*
+  - DOMAIN-SUFFIX,seller-log-collector.shopee.*
   - DOMAIN,telemetry.voxeet.com
   - DOMAIN,usertrack.appcpi.net
   - DOMAIN,api*.amplitude.com
@@ -36502,7 +36502,7 @@ payload:
   - DOMAIN,b7tp47v2nb3x-a.akamaihd.net
   - DOMAIN,bacon.section.io
   - DOMAIN,barium.cheezdev.com
-  - DOMAIN,bc.geocities.
+  - DOMAIN-SUFFIX,bc.geocities.*
   - DOMAIN,beacon.affil.walmart.com
   - DOMAIN,beacon.cdnma.com
   - DOMAIN,beacon.errorception.com
@@ -37017,7 +37017,7 @@ payload:
   - DOMAIN,tracker.services.vaix.ai
   - DOMAIN,tracker.ssl0d.com
   - DOMAIN,tracker.timesgroup.com
-  - DOMAIN,tracker.twenga.
+  - DOMAIN-SUFFIX,tracker.twenga.*
   - DOMAIN,tracker.wigzopush.com
   - DOMAIN,tracker.wpserveur.net
   - DOMAIN,trackerapi.truste.com
@@ -39118,7 +39118,7 @@ payload:
   - DOMAIN,admelon.ru
   - DOMAIN,admilk.ru
   - DOMAIN,admitlead.ru
-  - DOMAIN,admulti.
+  - DOMAIN-SUFFIX,admulti.*
   - DOMAIN,admxr.com
   - DOMAIN,adname.ru
   - DOMAIN,adne.info
@@ -39136,7 +39136,7 @@ payload:
   - DOMAIN,adselector.ru
   - DOMAIN,adsellers.net
   - DOMAIN,adsentiz.ru
-  - DOMAIN,adserver1.
+  - DOMAIN-SUFFIX,adserver1.*
   - DOMAIN,adservone.com
   - DOMAIN,adsgid.com
   - DOMAIN,adsliv.ru
@@ -39397,7 +39397,7 @@ payload:
   - DOMAIN,bold-in.ru
   - DOMAIN,bolshoykush.ru
   - DOMAIN,bombeers.ru
-  - DOMAIN,bondzgi*.
+  - DOMAIN-SUFFIX,bondzgi*.*
   - DOMAIN,bongacash.com
   - DOMAIN,bongobono.com
   - DOMAIN,boobzi.com
@@ -39722,7 +39722,7 @@ payload:
   - DOMAIN,flambo777.ru
   - DOMAIN,flapoint.ru
   - DOMAIN,flipdigital.ru
-  - DOMAIN,flipflapflo.
+  - DOMAIN-SUFFIX,flipflapflo.*
   - DOMAIN,float-l.ru
   - DOMAIN,fmates.ru
   - DOMAIN,fogtrack.net
@@ -39820,7 +39820,7 @@ payload:
   - DOMAIN,gonews*.net
   - DOMAIN,good-traf.ru
   - DOMAIN,good-traff.ru
-  - DOMAIN,goodadvert.
+  - DOMAIN-SUFFIX,goodadvert.*
   - DOMAIN,goodkind.ru
   - DOMAIN,goodlooknews.net
   - DOMAIN,goon.ru
@@ -39895,8 +39895,8 @@ payload:
   - DOMAIN,iclbodnew.pro
   - DOMAIN,iclckk.com
   - DOMAIN,icmil.ru
-  - DOMAIN,icq-window.
-  - DOMAIN,icqwindow.
+  - DOMAIN-SUFFIX,icq-window.*
+  - DOMAIN-SUFFIX,icqwindow.*
   - DOMAIN,ictowaz.ru
   - DOMAIN,idaschop.ru
   - DOMAIN,idpojar.ru
@@ -40092,7 +40092,7 @@ payload:
   - DOMAIN,letimsnami.ru
   - DOMAIN,letitsoft.com
   - DOMAIN,letmelook.net
-  - DOMAIN,letssex.
+  - DOMAIN-SUFFIX,letssex.*
   - DOMAIN,leuxq.com
   - DOMAIN,level1cdn.com
   - DOMAIN,levelpay.ru
@@ -40109,7 +40109,7 @@ payload:
   - DOMAIN,lineoflife.ru
   - DOMAIN,lingospot.com
   - DOMAIN,link.ru
-  - DOMAIN,linkexchange.
+  - DOMAIN-SUFFIX,linkexchange.*
   - DOMAIN,linkfeed.ru
   - DOMAIN,linkmyc.com
   - DOMAIN,links-wm.ru
@@ -40207,10 +40207,10 @@ payload:
   - DOMAIN,mediabaf.ru
   - DOMAIN,mediabanner.net
   - DOMAIN,mediacartel.ru
-  - DOMAIN,mediacontext.
+  - DOMAIN-SUFFIX,mediacontext.*
   - DOMAIN,mediadar.ru
   - DOMAIN,mediainform.net
-  - DOMAIN,medialand.
+  - DOMAIN-SUFFIX,medialand.*
   - DOMAIN,medianaft.com
   - DOMAIN,medianaft.ru
   - DOMAIN,medianetworks.ru
@@ -40520,22 +40520,22 @@ payload:
   - DOMAIN,politota.ru
   - DOMAIN,pomolation.ru
   - DOMAIN,ponyvod.ru
-  - DOMAIN,pop-parad.
-  - DOMAIN,pop-under.
+  - DOMAIN-SUFFIX,pop-parad.*
+  - DOMAIN-SUFFIX,pop-under.*
   - DOMAIN,pop.mrstiff.com
   - DOMAIN,popinads.com
-  - DOMAIN,poptraf.
-  - DOMAIN,popunder.
-  - DOMAIN,popupclick.
+  - DOMAIN-SUFFIX,poptraf.*
+  - DOMAIN-SUFFIX,popunder.*
+  - DOMAIN-SUFFIX,popupclick.*
   - DOMAIN,popups.ru
-  - DOMAIN,popuptraf.
+  - DOMAIN-SUFFIX,popuptraf.*
   - DOMAIN,pornin.ru
   - DOMAIN,pornoadvid.info
   - DOMAIN,pornorunet.ru
   - DOMAIN,pornoscanner.com
   - DOMAIN,pornovau.club
   - DOMAIN,portak.net
-  - DOMAIN,poshalim.
+  - DOMAIN-SUFFIX,poshalim.*
   - DOMAIN,powertraf.com
   - DOMAIN,poyva.com
   - DOMAIN,poza-69.ru
@@ -40676,10 +40676,10 @@ payload:
   - DOMAIN,rorer.ru
   - DOMAIN,rot.rusoul.ru
   - DOMAIN,rot.spotsniper.ru
-  - DOMAIN,rotaban.
-  - DOMAIN,rotabanner.
+  - DOMAIN-SUFFIX,rotaban.*
+  - DOMAIN-SUFFIX,rotabanner.*
   - DOMAIN,rotation-context.ru
-  - DOMAIN,rotator.
+  - DOMAIN-SUFFIX,rotator.*
   - DOMAIN,rotator.promokrot.com
   - DOMAIN,rs-context.ru
   - DOMAIN,rsuuc.com
@@ -40698,7 +40698,7 @@ payload:
   - DOMAIN,ruschopi.ru
   - DOMAIN,ruscontext.com
   - DOMAIN,rushkolnik.ru
-  - DOMAIN,rusrestbest.
+  - DOMAIN-SUFFIX,rusrestbest.*
   - DOMAIN,russian-cuties.info
   - DOMAIN,rustds.click
   - DOMAIN,rustiz.ru
@@ -40897,7 +40897,7 @@ payload:
   - DOMAIN,teasermall.com
   - DOMAIN,teasermedia.net
   - DOMAIN,teasermoney.ru
-  - DOMAIN,teasernet.
+  - DOMAIN-SUFFIX,teasernet.*
   - DOMAIN,teaserplay.ru
   - DOMAIN,teaserpro.ru
   - DOMAIN,teasers.mobi
@@ -41056,8 +41056,8 @@ payload:
   - DOMAIN,ultrapay.net
   - DOMAIN,umyetor.ru
   - DOMAIN,unads.ru
-  - DOMAIN,under-click.
-  - DOMAIN,underclick.
+  - DOMAIN-SUFFIX,under-click.*
+  - DOMAIN-SUFFIX,underclick.*
   - DOMAIN,underdone.ru
   - DOMAIN,undere.com
   - DOMAIN,undleftranver.ru
@@ -41132,8 +41132,8 @@ payload:
   - DOMAIN,video1002.com
   - DOMAIN,video1132.com
   - DOMAIN,videocap.org
-  - DOMAIN,videoclick.
-  - DOMAIN,videoclik.
+  - DOMAIN-SUFFIX,videoclick.*
+  - DOMAIN-SUFFIX,videoclik.*
   - DOMAIN,videofan.ru
   - DOMAIN,videoframe.blue
   - DOMAIN,videoklass.ru
@@ -41200,7 +41200,7 @@ payload:
   - DOMAIN,w*statistics.info
   - DOMAIN,wafum.ml
   - DOMAIN,web-rotation.net
-  - DOMAIN,web-visor.
+  - DOMAIN-SUFFIX,web-visor.*
   - DOMAIN,webgringo.ru
   - DOMAIN,webmasterskyi.com
   - DOMAIN,webmedia.co.il
@@ -41447,7 +41447,7 @@ payload:
   - DOMAIN,af.1gdz.ru
   - DOMAIN,afbanner.kinobomber3.online
   - DOMAIN,aliru2.ru.p.pstl.live
-  - DOMAIN,an.yandex.
+  - DOMAIN-SUFFIX,an.yandex.*
   - DOMAIN,b.1istochnik.ru
   - DOMAIN,b.books555.com
   - DOMAIN,b.povarenok.ru
@@ -49512,7 +49512,7 @@ payload:
   - DOMAIN,same*.stockstar.com
   - DOMAIN,same.chinadaily.com.cn
   - DOMAIN,same.eastmoney.com
-  - DOMAIN,sax*.sina.
+  - DOMAIN-SUFFIX,sax*.sina.*
   - DOMAIN,sgg.southcn.com
   - DOMAIN,share.gzdsw.com
   - DOMAIN,smuc.cnnfootballclub.com
@@ -49905,7 +49905,7 @@ payload:
   - DOMAIN,fpb*.51edu.com
   - DOMAIN,fpb.sohu.com
   - DOMAIN,fpb1.apple886.com
-  - DOMAIN,fpb1.chinacar.
+  - DOMAIN-SUFFIX,fpb1.chinacar.*
   - DOMAIN,fpb1.jsq886.com
   - DOMAIN,fpb1.kedabai.com
   - DOMAIN,fpb1.tabuzhe.com
@@ -50515,11 +50515,11 @@ payload:
   - DOMAIN,stats.redditmedia.com
   - DOMAIN,stats.thevideo.me
   - DOMAIN,stats.wwitv.com
-  - DOMAIN,t.delfi.
+  - DOMAIN-SUFFIX,t.delfi.*
   - DOMAIN,t.vimeo.com
   - DOMAIN,track.collegehumor.com
-  - DOMAIN,track.zalando.
-  - DOMAIN,tracking.olx.
+  - DOMAIN-SUFFIX,track.zalando.*
+  - DOMAIN-SUFFIX,tracking.olx.*
   - DOMAIN,adocean.cz
   - DOMAIN,dualstack.adbert-web-lbs-*.elb.amazonaws.com
   - DOMAIN,vahufapave.com

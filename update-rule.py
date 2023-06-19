@@ -28,6 +28,9 @@ def get_AdGuardDNS_filter(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -67,6 +70,9 @@ def get_rule_oisd_full(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -105,6 +111,9 @@ def get_rule_oisd_small(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -143,6 +152,9 @@ def get_rule_AdAway(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -181,6 +193,9 @@ def get_rule_antiAD(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -219,6 +234,9 @@ def get_rule_Dandelion_AntiMalware(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -257,6 +275,9 @@ def get_rule_Malicious_URLhaus(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -295,6 +316,9 @@ def get_rule_Phishing_URL(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
@@ -333,6 +357,9 @@ def get_rule_StevenBlackList(url):
                     elif domain.startswith("."):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*" + domain_suffix)
+                    elif domain.endswith("."):
+                        domain_suffix = domain + "*"
+                        domains.append("  - DOMAIN-SUFFIX," + domain_suffix)
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
