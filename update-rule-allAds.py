@@ -70,6 +70,6 @@ for url in urls:
 update_rule_allAds = list(set(update_rule_allAds))
 
 if update_rule_allAds:
-    with open("allAds.yaml", "w", encoding='utf-8') as f:
+    with open("rule-allAds.yaml", "w", encoding='utf-8') as f:
         f.write("payload:\n")
         f.write("\n".join(update_rule_allAds))
