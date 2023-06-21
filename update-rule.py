@@ -76,8 +76,8 @@ def get_rule_AdAway(url):
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
-                   # jika domain memiliki karakter "log.pinterest.com", "pinimg" maka domain tersebut tidak akan ditambahkan
-                    elif any(prefix in domain for prefix in ("log.pinterest.com", "pinimg")):
+                   # jika domain memiliki karakter "pinimg" maka domain tersebut tidak akan ditambahkan
+                    elif any(prefix in domain for prefix in ("pinimg")):
                         continue
                     else:
                         domains.append("  - DOMAIN," + domain)
