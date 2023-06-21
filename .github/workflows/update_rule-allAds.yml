@@ -1,8 +1,8 @@
-name: Update Clash rule-allAds.yaml
+name: Update clash rule-allAds.yaml
 
 on:
   schedule:
-    - cron:  '0 1 * * *'
+    - cron:  '5 1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
     - name: Show python version
       run: python3 --version
     - name: Run a script
-      run: python3 update_rule-allADs.py
+      run: python3 update-rule-allAds.py
     - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
