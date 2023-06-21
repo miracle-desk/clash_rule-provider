@@ -76,9 +76,15 @@ def get_rule_AdAway(url):
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
+<<<<<<< HEAD
                    # jika domain memiliki karakter "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp" maka domain tersebut tidak akan ditambahkan
                     elif any(prefix in domain for prefix in ("tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
                         continue                    
+=======
+                   # jika domain memiliki karakter "pinimg" maka domain tersebut tidak akan ditambahkan
+                    elif any(prefix in domain for prefix in ("pinimg")):
+                        continue
+>>>>>>> abe596dc10d02c60fe12c95b9ac3d17870564247
                     else:
                         domains.append("  - DOMAIN," + domain)
         rules = domains + ["  - IP-CIDR," + ip for ip in ips]
