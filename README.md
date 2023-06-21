@@ -9,7 +9,7 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/rule_allAds.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_allAds.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200 # Update rules every 12 hours
 
 rules:
 - RULE-SET,rule_allAds,REJECT
