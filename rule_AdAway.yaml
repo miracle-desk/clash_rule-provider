@@ -476,8 +476,6 @@ payload:
   - DOMAIN,adstax-match-proxy.adrtx.net
   - DOMAIN,api.adrtx.net
   - DOMAIN,cdn.adrtx.net
-  - DOMAIN,ads-twitter.com
-  - DOMAIN,static.ads-twitter.com
   - DOMAIN,ads1-adnow.com
   - DOMAIN,n.ads1-adnow.com
   - DOMAIN,st-n.ads1-adnow.com
@@ -588,7 +586,6 @@ payload:
   - DOMAIN,adsymptotic.com
   - DOMAIN,api.adsymptotic.com
   - DOMAIN,p.adsymptotic.com
-  - DOMAIN,pinterest.adsymptotic.com
   - DOMAIN,adtarget.com.tr
   - DOMAIN,console.adtarget.com.tr
   - DOMAIN,sync.console.adtarget.com.tr
@@ -2525,8 +2522,6 @@ payload:
   - DOMAIN,xml.ezmob.com
   - DOMAIN,go.ezoic.net
   - DOMAIN,fabric.io
-  - DOMAIN,an.facebook.com
-  - DOMAIN,pixel.facebook.com
   - DOMAIN,fam-ad.com
   - DOMAIN,fastapi.net
   - DOMAIN,mparticle.map.fastly.net
@@ -3478,8 +3473,6 @@ payload:
   - DOMAIN,vap4sfo1.lijit.com
   - DOMAIN,vap5ewr1.lijit.com
   - DOMAIN,vap6ewr1.lijit.com
-  - DOMAIN,ads.linkedin.com
-  - DOMAIN,px.ads.linkedin.com
   - DOMAIN,ad.linkprice.com
   - DOMAIN,ad.linksynergy.com
   - DOMAIN,banner.linksynergy.com
@@ -4566,11 +4559,6 @@ payload:
   - DOMAIN,intelligence-head.pinsightmedia.com
   - DOMAIN,topapps-func.pinsightmedia.com
   - DOMAIN,trackdat.pinsightmedia.com
-  - DOMAIN,ads.pinterest.com
-  - DOMAIN,analytics.pinterest.com
-  - DOMAIN,ct.pinterest.com
-  - DOMAIN,log.pinterest.com
-  - DOMAIN,trk.pinterest.com
   - DOMAIN,pippio.com
   - DOMAIN,pixel.watch
   - DOMAIN,pub.pixels.ai
@@ -5757,10 +5745,6 @@ payload:
   - DOMAIN,thrtle.com
   - DOMAIN,tidaltv.com
   - DOMAIN,trk.tidaltv.com
-  - DOMAIN,analytics.tiktok.com
-  - DOMAIN,log-va.tiktokv.com
-  - DOMAIN,mon.tiktokv.com
-  - DOMAIN,mon-va.tiktokv.com
   - DOMAIN,registration.tiltingpoint.io
   - DOMAIN,utctime.tiltingpoint.io
   - DOMAIN,metrics.timewarnercable.com
@@ -5940,10 +5924,6 @@ payload:
   - DOMAIN,collector-9306.us.tvsquared.com
   - DOMAIN,collectoru.us.tvsquared.com
   - DOMAIN,sdkgw.us1.twilio.com
-  - DOMAIN,ads.twitter.com
-  - DOMAIN,ads-api.twitter.com
-  - DOMAIN,ads-bidder-api.twitter.com
-  - DOMAIN,analytics.twitter.com
   - DOMAIN,de.tynt.com
   - DOMAIN,lightstep-collector.api.ua.com
   - DOMAIN,uberads.com
