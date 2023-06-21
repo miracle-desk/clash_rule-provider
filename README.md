@@ -1,7 +1,7 @@
 # clash-rule [test] generate form AdGuard Home & other
-rule_allAds.yaml gabungan dari semua rule yang ada di sini kecuali rule_custom.yaml
+`rule_allAds.yaml` gabungan dari semua rule yang ada di sini kecuali rule_custom.yaml
 
-rule_allAds.yaml digabung menggunakan parsing, jika beberapa baris terdapat penulisan karakter sama persis maka hanya 1 baris saja yang dimasukkan. Penggunaan parsing bertujuan menghindari penulisan domain host dan ip berulang.
+`rule_allAds.yaml` digabung menggunakan parsing, jika beberapa baris terdapat penulisan karakter sama persis maka hanya 1 baris saja yang dimasukkan. Penggunaan parsing bertujuan menghindari penulisan domain host dan ip berulang
 ```yaml
 rule-providers:
   rule_allAds:
