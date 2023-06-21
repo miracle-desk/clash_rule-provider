@@ -66,7 +66,7 @@ urls = [
 for url in urls:
     update_rule_allAds += get_rule_update(url)
 
-# Parsing untuk menghapus baris duplikat, meyisakan 1 baris saja dari agar domain tidak menumpuk tertulis berualang
+# Parsing untuk menghapus baris duplikat, menulis 1 baris saja jika terdapat beberapa baris yang memiliki penulisan karakter sama persis, menghindari penulisan host domain & ip berualang
 update_rule_allAds = list(set(update_rule_allAds))
 
 if update_rule_allAds:
