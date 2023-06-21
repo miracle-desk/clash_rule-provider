@@ -18,7 +18,7 @@ rules:
 Note : Untuk rule OISD pilih salah satu saja, karena dalam OISD full sudah include OISD small. Sebagai ilustrasi rule OISD small cocok untuk adblock ringan tidak begitu agresive
 
 Untuk menggunakan, edit `config.yaml` pada `/etc/openclash/config/config.yaml` seperti ini:
-```
+```yaml
 rule-providers:
   rule_ABPindo:
     type: http
