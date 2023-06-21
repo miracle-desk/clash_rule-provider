@@ -55,7 +55,7 @@ urls = [
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt',  #06 HaGeZi_Personal
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt',  #07 Malicious_URLhaus
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt',   #08 NoCoin_filter
-        'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt',  #09  NoTracking
+        'https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt',  #09 NoTracking
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt',  #10 oisd_full
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt',   #11 oisd_small
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt',  #12 Phishing_URL
