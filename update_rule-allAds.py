@@ -5,7 +5,7 @@ def get_rule_update(url):
     try:
         r = requests.get(url)
         update_rule_update = r.text.split("\n")
-        update_rule_update = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1", "").replace("0.0.0.0", "").replace("^", "") for line in update_rule_update if not line.startswith(('#', '!', '/', '@', '-', '&'))]
+        update_rule_update = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1 ", "").replace("0.0.0.0 ", "").replace("^", "") for line in update_rule_update if not line.startswith(('#', '!', '/', '@', '-', '&'))]
         domains = []
         ips = []
         for line in update_rule_update:
