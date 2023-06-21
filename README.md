@@ -1,4 +1,17 @@
 # clash-rule [test] generate form AdGuard Home & other
+rule_allAds.yaml gabungan dari semua rule yang ada di sini kecuali rule_custom.yaml
+```
+rule-providers:
+  rule_allAds:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_allAds.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_allAds.yaml
+    interval: 86400 # Update rules every 24 hours
+
+rules:
+- RULE-SET,rule_allAds,REJECT
+```
 
 Note : Untuk rule OISD pilih salah satu saja, karena dalam OISD full sudah include OISD small. Sebagai ilustrasi rule OISD small cocok untuk adblock ringan tidak begitu agresive
 
