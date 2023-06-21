@@ -34,7 +34,7 @@ def get_rule_update(url):
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
-                    # jika domain memiliki karakter "github", "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp" maka domain tersebut tidak akan ditambahkan
+                    # jika domain memiliki karakter "github", "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp" maka baris tersebut tidak akan ditambahkan
                     elif any(prefix in domain for prefix in ("github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
                         continue
                     else:
