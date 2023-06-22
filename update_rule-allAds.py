@@ -5,7 +5,7 @@ def get_rule_update(url):
     try:
         r = requests.get(url)
         update_rule_update = r.text.split("\n")
-        update_rule_update = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1 ", "").replace("0.0.0.0 ", "").replace("^", "") for line in update_rule_update if not line.startswith(('#', '!', '/', '@', '-', '&'))]
+        update_rule_update = [line.replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1 ", "").replace("0.0.0.0 ", "").replace("^", "") for line in update_rule_update if not line.startswith(('#', '!', '/', '@', '-', '&', 'payload:'))]
         domains = []
         ips = []
         for line in update_rule_update:
@@ -34,8 +34,8 @@ def get_rule_update(url):
                     elif domain.startswith("://"):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
-                    # jika domain memiliki karakter "github", "tiktok", "pinterest", "twitter", "linkedin", "facebook", "instagram", "whatsapp" maka baris tersebut tidak akan ditambahkan
-                    elif any(prefix in domain for prefix in ("github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
+                    # jika domain memiliki karakter "github", "tiktok", "pinterest", "twitter", dkk maka baris tersebut tidak akan ditambahkan
+                    elif any(prefix in domain for prefix in ("autodesk", "github", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
                         continue
                     else:
                         domains.append("  - DOMAIN," + domain)
@@ -61,7 +61,8 @@ urls = [
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt',  #12 Phishing_URL
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt',  #13 Scam_byDurableNapkin
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt',  #15 Stalkerware
-        'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts'  #16 StevenBlackList
+        'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts',  #16 StevenBlackList
+        'https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml'         #16 rule-custom
     ]
 for url in urls:
     update_rule_allAds += get_rule_update(url)
