@@ -1,4 +1,5 @@
 # [ clash rule-Ads + rule-security ] Generate form AdGuard Home & other
+## PENTING ! : Jangan semua rule di masukkan, itu akan memakan ram yang cukup besar pada device. Jadi ambil sesuai spec dan kebutuhan saja
 `rule_allAds.yaml` adalah gabungan dari semua rule yang ada di sini
 
 `rule_allAds.yaml` digabung menggunakan parsing, jika beberapa baris terdapat penulisan karakter sama persis maka hanya 1 baris saja yang dimasukkan. Penggunaan parsing bertujuan menghindari penulisan domain host dan ip berulang
