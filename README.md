@@ -136,4 +136,4 @@ rules:
 - RULE-SET,rule_Stalkerware,REJECT
 - RULE-SET,rule_custom,REJECT
 ```
-## PENTING ! : Jangan semua rule di masukkan, itu akan memakan ram yang cukup besar pada device. Jadi ambil atau gunakan sesuai spec dan kebutuhan
+<font color="red">## PENTING ! :</font> Jangan semua rule di masukkan, itu akan memakan ram yang cukup besar pada device. Jadi ambil atau gunakan sesuai spec dan kebutuhan
