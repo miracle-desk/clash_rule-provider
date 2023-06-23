@@ -99,6 +99,12 @@ rule-providers:
     path: "./rule_provider/rule_Scam-byDurableNapkin.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Scam-byDurableNapkin.yaml
     interval: 43200 # Update rules every 12 hours
+  rule_ShadowWhisperer-Malware:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_ShadowWhisperer-Malware.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_ShadowWhisperer-Malware.yaml
+    interval: 43200 # Update rules every 12 hours
   rule_Stalkerware: # Untuk Android+iOS
     type: http
     behavior: classical
@@ -133,6 +139,7 @@ rules:
 - RULE-SET,rule_Phishing-URL,REJECT             #security
 - RULE-SET,rule_StevenBlackList,REJECT          #general[fakenews+gambling]
 - RULE-SET,rule_Scam-byDurableNapkin,REJECT     #security
+- RULE-SET,rule_ShadowWhisperer-Malware,REJECT  #security
 - RULE-SET,rule_Stalkerware,REJECT              #security
 - RULE-SET,rule_custom,REJECT                   #general
 ```
