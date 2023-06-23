@@ -2,7 +2,7 @@ name: Update clash-rule.yaml
 
 on:
   schedule:
-    - cron:  '0 1 * * *'
+    - cron:  '0 1,13 * * *'
   workflow_dispatch:
 
 jobs:
