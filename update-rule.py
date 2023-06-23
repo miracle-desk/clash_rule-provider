@@ -1,6 +1,5 @@
 import requests
 import ipaddress
-import re 
 
 def get_update_rule(url):
     try:
