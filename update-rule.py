@@ -114,6 +114,11 @@ if update_rule_Scam_byDurableNapkin:
     with open("rule_Scam-byDurableNapkin.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_Scam_byDurableNapkin))
 
+update_rule_ShadowWhisperer_Malware = get_update_rule("https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt")
+if update_rule_ShadowWhisperer_Malware:
+    with open("rule_ShadowWhisperer-Malware.yaml", "w", encoding='utf-8') as f:
+        f.write("\n".join(update_rule_ShadowWhisperer_Malware))
+
 update_rule_Stalkerware = get_update_rule("https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt")
 if update_rule_Stalkerware:
     with open("rule_Stalkerware.yaml", "w", encoding='utf-8') as f:
