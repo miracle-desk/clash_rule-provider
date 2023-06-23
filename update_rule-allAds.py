@@ -60,9 +60,10 @@ urls = [
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt',   #11 oisd_small
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt',  #12 Phishing_URL
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt',  #13 Scam_byDurableNapkin
+        'https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt',  #14 ShadowWhisperer_Malware
         'https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt',  #15 Stalkerware
         'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts',  #16 StevenBlackList
-        'https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml'         #16 rule-custom
+        'https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml'         #17 rule-custom
     ]
 for url in urls:
     update_rule_allAds += get_rule_update(url)
