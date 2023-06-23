@@ -7,7 +7,7 @@ payload:
   - DOMAIN,ping.*.sogou.com
   - DOMAIN,vs*.gzcu.u3.ucweb.com
   - DOMAIN,bs*.9669.cn
-  - DOMAIN,*mistat*.xiaomi.com
+  - DOMAIN-SUFFIX,*mistat*.xiaomi.com
   - DOMAIN,assoc-amazon.*
   - DOMAIN,clkservice*.youdao.com
   - DOMAIN,dsp*.youdao.com
@@ -19,7 +19,7 @@ payload:
   - DOMAIN,gg*.51cto.com
   - DOMAIN,log.*.hunantv.com
   - DOMAIN,iflyad.*.openstorage.cn
-  - DOMAIN,*customstat*.51togic.com
+  - DOMAIN-SUFFIX,*customstat*.51togic.com
   - DOMAIN,ad*.molitv.cn
   - DOMAIN,ads*-adnow.com
   - DOMAIN,aeros*.tk
@@ -32,8 +32,8 @@ payload:
   - DOMAIN,flightzy.*
   - DOMAIN,sunnimiq*.cf
   - DOMAIN,admob.*
-  - DOMAIN,*log.droid4x.cn
-  - DOMAIN,*tsdk.vivo.com.cn
+  - DOMAIN-SUFFIX,*log.droid4x.cn
+  - DOMAIN-SUFFIX,*tsdk.vivo.com.cn
   - DOMAIN-SUFFIX,*.mmstat.com
   - DOMAIN,f-log*.grammarly.io
   - DOMAIN,ad-*.wikawika.xyz
@@ -45,7 +45,7 @@ payload:
   - DOMAIN,brucelead*.com
   - DOMAIN,gostats.*
   - DOMAIN,oiwjcsh*.top
-  - DOMAIN,*-analytics*.huami.com
+  - DOMAIN-SUFFIX,*-analytics*.huami.com
   - DOMAIN,count*.pconline.com.cn
   - DOMAIN,qchannel*.cn
   - DOMAIN,sda*.xyz
@@ -90,7 +90,7 @@ payload:
   - DOMAIN,ssc.southpark*
   - DOMAIN,tr.*.espmp-*fr.net
   - DOMAIN,da.hornbach.*
-  - DOMAIN,*us*watcab*.blob.core.windows.net
+  - DOMAIN-SUFFIX,*us*watcab*.blob.core.windows.net
   - DOMAIN,xn--wxtr9fwyxk9c.*
   - DOMAIN,tuiguang.*
   - DOMAIN,s8.001fzc.com
@@ -2247,7 +2247,6 @@ payload:
   - DOMAIN,adrunnr.com
   - DOMAIN,ads-6686.top
   - DOMAIN,ads-pixiv.net
-  - DOMAIN,ads-twitter.com
   - DOMAIN,ads2ads.net
   - DOMAIN,ads4g.pl
   - DOMAIN,ads4trk.com
@@ -4859,7 +4858,6 @@ payload:
   - DOMAIN,arccarterultimate.com
   - DOMAIN,arccdyvgh.com
   - DOMAIN,arcfctypact.top
-  - DOMAIN,archbishopsheettwitter.com
   - DOMAIN,archeswethers.live
   - DOMAIN,archgrotesqueiso.com
   - DOMAIN,archiecheekydecline.com
@@ -19319,8 +19317,6 @@ payload:
   - DOMAIN,facaltow.net
   - DOMAIN,facankaphfqjap.com
   - DOMAIN,face-push.com
-  - DOMAIN,badge.facebook.com
-  - DOMAIN,staticxx.facebook.com
   - DOMAIN,faceporn.com
   - DOMAIN,facesnotebook.com
   - DOMAIN,facesrenaissanceconfirmed.com
@@ -25961,7 +25957,6 @@ payload:
   - DOMAIN,marketing.ibermatica.com
   - DOMAIN,appassets.androidplatform.net.iberostar.com
   - DOMAIN,dev-cenam-mobilefirst.tmx-internacional.net.iberostar.com
-  - DOMAIN,g.whatsapp.net.iberostar.com
   - DOMAIN,scontent-mia3-2.xx.fbcdn.net.iberostar.com
   - DOMAIN,sonar6-sea1-1.xx.fbcdn.net.iberostar.com
   - DOMAIN,sonar6.xy.fbcdn.net.iberostar.com
@@ -27033,7 +27028,6 @@ payload:
   - DOMAIN,instadia.net
   - DOMAIN,instaemail.net
   - DOMAIN,instaflrt.com
-  - DOMAIN,badges.instagram.com
   - DOMAIN,installerleading.com
   - DOMAIN,installlnow.com
   - DOMAIN,instana.io
@@ -31556,7 +31550,6 @@ payload:
   - DOMAIN,linkchangesnow.com
   - DOMAIN,linkconnector.com
   - DOMAIN,linkedassassin.com
-  - DOMAIN,platform.linkedin.com
   - DOMAIN,linkedprepenseprepense.com
   - DOMAIN,linkeinvitable.site
   - DOMAIN,linkelevator.com
@@ -40489,9 +40482,6 @@ payload:
   - DOMAIN,pinpoll.com
   - DOMAIN,pinprickplums.com
   - DOMAIN,pinremembrance.com
-  - DOMAIN,ct.pinterest.com
-  - DOMAIN,log.pinterest.com
-  - DOMAIN,trk.pinterest.com
   - DOMAIN,pintour.com
   - DOMAIN,get.pintpass.com
   - DOMAIN,pinttalewag.com
@@ -40649,7 +40639,6 @@ payload:
   - DOMAIN,placeofres.com
   - DOMAIN,placidperson.com
   - DOMAIN,pladform.ru
-  - DOMAIN,plaguealacritytwitter.com
   - DOMAIN,plagueinclude.com
   - DOMAIN,plaguemanipulatedrag.com
   - DOMAIN,plaicecaught.com
@@ -50181,7 +50170,6 @@ payload:
   - DOMAIN,swimslope.com
   - DOMAIN,swimsuitmysteryisland.com
   - DOMAIN,swimsunleisure.com
-  - DOMAIN,swimtwittercloakroom.com
   - DOMAIN,swinesuburbanclue.com
   - DOMAIN,swingebudded.com
   - DOMAIN,swirlygossips.com
@@ -51972,9 +51960,6 @@ payload:
   - DOMAIN,tk.tikamoon.it
   - DOMAIN,tikbblove.com
   - DOMAIN,app.tikki.com
-  - DOMAIN,mcs-va.tiktokv.com
-  - DOMAIN,mcs.us.tiktokv.com
-  - DOMAIN,mon.us.tiktokv.com
   - DOMAIN,stat.tildacdn.com
   - DOMAIN,tiledissipatelocum.com
   - DOMAIN,bierlanz-test.till-koppers.de
@@ -53570,13 +53555,6 @@ payload:
   - DOMAIN,twisteryirr.com
   - DOMAIN,twistyscash.com
   - DOMAIN,twittad.com
-  - DOMAIN,ads-api.twitter.com
-  - DOMAIN,syndication.twitter.com
-  - DOMAIN,p.twitter.com
-  - DOMAIN,scribe.twitter.com
-  - DOMAIN,syndication-o.twitter.com
-  - DOMAIN,urls.api.twitter.com
-  - DOMAIN,jdgtgb.twitterperlen.de
   - DOMAIN,twjxmd.com
   - DOMAIN,twlcyc.cn
   - DOMAIN,m.twldmx.com
