@@ -13,8 +13,10 @@ jobs:
       uses: actions/checkout@v3
     - name: Show python version
       run: python3 --version
-    - name: Run a script
+    - name: Run a script update rule
       run: python3 update-rule.py
+    - name: Run a script update rule allAds
+      run: python3 update_rule-allAds.py     
     - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
