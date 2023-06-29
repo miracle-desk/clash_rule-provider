@@ -63,6 +63,12 @@ rule-providers:
     path: "./rule_provider/rule_Malicious-URLhaus.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malicious-URLhaus.yaml
     interval: 43200 # Update rules every 12 hours
+  rule_Malware-Websites:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_Malware-Websites.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malware-Websites.yaml
+    interval: 43200 # Update rules every 12 hours
   rule_NoCoin-filter:
     type: http
     behavior: classical
@@ -132,6 +138,7 @@ rules:
 - RULE-SET,rule_Dandelion-AntiMalware,REJECT    #security
 - RULE-SET,rule_HaGeZi-Personal,REJECT          #general
 - RULE-SET,rule_Malicious-URLhaus,REJECT        #security
+- RULE-SET,rule_Malware-Websites,REJECT         #security
 - RULE-SET,rule_NoCoin-filter,REJECT            #security
 - RULE-SET,rule_NoTracking,REJECT               #general
 - RULE-SET,rule_oisd-full,REJECT                #general
