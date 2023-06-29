@@ -84,6 +84,11 @@ if update_rule_Malicious_URLhaus:
     with open("rule_Malicious-URLhaus.yaml", "w", encoding='utf-8') as f:
         f.write("\n".join(update_rule_Malicious_URLhaus))
 
+update_rule_Malware_Websites = get_update_rule("https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt")
+if update_rule_Malware_Websites:
+    with open("rule_Malware-Websites.yaml", "w", encoding='utf-8') as f:
+        f.write("\n".join(update_rule_Malware_Websites))
+
 update_rule_NoCoin_filter = get_update_rule("https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt")
 if update_rule_NoCoin_filter:
     with open("rule_NoCoin-filter.yaml", "w", encoding='utf-8') as f:
