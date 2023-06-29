@@ -5,7 +5,7 @@ def get_update_rule(url):
     try:
         r = requests.get(url)
         update_rule = r.text.split("\n")
-        update_rule = [line.replace("  - DOMAIN,", "").replace("  - DOMAIN-SUFFIX,", "").replace("  - IP-CIDR,", "").replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1 ", "").replace("0.0.0.0 ", "").replace("^", "") for line in update_rule if not line.startswith(('#', '!', '/', '@', '-', '&', 'payload:'))]
+        update_rule = [line.replace("  - DOMAIN,", "").replace("  - DOMAIN-SUFFIX,", "").replace("  - IP-CIDR,", "").replace("||", "").replace("|", "").replace("://", "").replace("127.0.0.1 ", "").replace("0.0.0.0 ", "").replace("^", "") for line in update_rule if not line.startswith(('#', '!', '/', '@', '-', '&', 'payload:', '0.0.0.0 t.co'))]
         domains = []
         ips = []
         for line in update_rule:
@@ -38,7 +38,7 @@ def get_update_rule(url):
                         domain_suffix = domain + ""
                         domains.append("  - DOMAIN-SUFFIX,*." + domain_suffix)
                     # jika domain memiliki karakter "tiktok", "pinterest" dkk maka domain tersebut tidak akan ditambahkan
-                    elif any(prefix in domain for prefix in ("autodesk", "tiktok", "pinterest", "pinimg", "twitter", "linkedin", "facebook", "instagram", "whatsapp")):
+                    elif any(prefix in domain for prefix in ("autodesk", "tiktok", "pinterest", "pinimg", "twitter", "twimg", "linkedin", "facebook", "fbcdn.net", "fbcdn.com", "fbcdn-a", "instagram", "whatsapp")):
                         continue
                     else:
                         domains.append("  - DOMAIN," + domain)
