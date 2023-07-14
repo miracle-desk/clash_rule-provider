@@ -127,7 +127,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_custom.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml
+    url: https://raw.githubusercontent.com/miracle-desk/openclash/main/backup/rule_provider/rule_custom.yaml
     interval: 43200 # Update rules every 12 hours
     
 rules:
