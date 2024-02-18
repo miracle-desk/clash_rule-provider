@@ -283,7 +283,6 @@ payload:
   - DOMAIN,faze5.com
   - DOMAIN,faze6.com
   - DOMAIN,faze60.com
-  - DOMAIN,faze62.com
   - DOMAIN,faze65.com
   - DOMAIN,faze66.com
   - DOMAIN,faze67.com
@@ -507,7 +506,6 @@ payload:
   - DOMAIN,natilove.com
   - DOMAIN,nationaladvancegroup.com
   - DOMAIN,natistore.us
-  - DOMAIN,navi0.ru
   - DOMAIN,navi1.com
   - DOMAIN,navi10.com
   - DOMAIN,navi100.com
@@ -540,8 +538,10 @@ payload:
   - DOMAIN,navi47.com
   - DOMAIN,navi5.com
   - DOMAIN,navi50.com
+  - DOMAIN,navi51.ru
   - DOMAIN,navi53.com
   - DOMAIN,navi56.com
+  - DOMAIN,navi57.ru
   - DOMAIN,navi59.ru
   - DOMAIN,navi6.com
   - DOMAIN,navi61.com
@@ -550,7 +550,6 @@ payload:
   - DOMAIN,navi67.com
   - DOMAIN,navi67.ru
   - DOMAIN,navi7.com
-  - DOMAIN,navi7.ru
   - DOMAIN,navi71.com
   - DOMAIN,navi72.com
   - DOMAIN,navi72.ru
@@ -562,7 +561,6 @@ payload:
   - DOMAIN,navi78.ru
   - DOMAIN,navi79.com
   - DOMAIN,navi8.com
-  - DOMAIN,navi80.com
   - DOMAIN,navi85.com
   - DOMAIN,navi86.ru
   - DOMAIN,navi87.com
@@ -573,7 +571,6 @@ payload:
   - DOMAIN,navi91.com
   - DOMAIN,navi94.com
   - DOMAIN,navi96.com
-  - DOMAIN,navi97.com
   - DOMAIN,navi98.com
   - DOMAIN,navi99.com
   - DOMAIN,nbdiscount.com
@@ -605,6 +602,7 @@ payload:
   - DOMAIN,nip5.com
   - DOMAIN,nip57.com
   - DOMAIN,nip6.com
+  - DOMAIN,nip67.com
   - DOMAIN,nip69.com
   - DOMAIN,nip7.com
   - DOMAIN,nip8.com
@@ -675,18 +673,14 @@ payload:
   - DOMAIN,pay.avito.avito.avito.sber.booking.com-id90123.info
   - DOMAIN,pay.avito.avito.avito.sber.com-id20341.info
   - DOMAIN,pay.avito.avito.avito.www.booking.com-id90123.info
-  - DOMAIN,pay.avito.avito.booking.com-id809712.com
   - DOMAIN,pay.avito.avito.com-id02349.info
   - DOMAIN,pay.avito.avito.com-id809702.com
   - DOMAIN,pay.avito.avito.pay.avito.avito.booking.com-id90123.info
-  - DOMAIN,pay.avito.avito.pay.booking.com-id809712.com
-  - DOMAIN,pay.avito.avito.pay.www.booking.com-id809712.com
   - DOMAIN,pay.avito.avito.sber.booking.com-id90123.info
   - DOMAIN,pay.avito.avito.sber.com-id02349.info
   - DOMAIN,pay.avito.avito.sber.com-id20341.info
   - DOMAIN,pay.avito.avito.www.booking.com-id809702.com
   - DOMAIN,pay.avito.booking.com-id809702.com
-  - DOMAIN,pay.avito.booking.com-id809712.com
   - DOMAIN,pay.avito.booking.com-id90123.info
   - DOMAIN,pay.avito.com-id809702.com
   - DOMAIN,pay.avito.com-id90123.info
@@ -696,17 +690,14 @@ payload:
   - DOMAIN,pay.avito.sber.com-id02349.info
   - DOMAIN,pay.avito.sber.com-id20341.info
   - DOMAIN,pay.avito.sber.com-id809702.com
-  - DOMAIN,pay.avito.sber.com-id809712.com
   - DOMAIN,pay.avito.sber.sber.booking.com-id90123.info
   - DOMAIN,pay.avito.www.avito.www.booking.com-id90123.info
   - DOMAIN,pay.avito.www.booking.com-id20341.info
   - DOMAIN,pay.avito.www.booking.com-id90123.info
   - DOMAIN,pay.booking.com-id20341.info
-  - DOMAIN,pay.booking.com-id8439141.info
   - DOMAIN,pay.com-id20341.info
   - DOMAIN,pay.com-id409712.com
   - DOMAIN,pay.com-id809702.com
-  - DOMAIN,pay.com-id809712.com
   - DOMAIN,pay.com-id90123.info
   - DOMAIN,pay.pay.avito.avito.avito.avito.avito.com-id90123.info
   - DOMAIN,pay.pay.avito.avito.avito.sber.com-id02349.info
@@ -718,11 +709,12 @@ payload:
   - DOMAIN,pay.sber.booking.com-id20341.info
   - DOMAIN,pay.sber.booking.com-id90123.info
   - DOMAIN,pay.sber.com-id20341.info
-  - DOMAIN,pay.sber.com-id809712.com
   - DOMAIN,pay.sber.sber.booking.com-id90123.info
   - DOMAIN,pay.www.avito.booking.com-id90123.info
   - DOMAIN,pay.www.avito.www.booking.com-id90123.info
   - DOMAIN,pay.www.booking.com-id20341.info
+  - DOMAIN,pay.www.booking.com-id809712.com
+  - DOMAIN,pay.www.pay.booking.com-id809712.com
   - DOMAIN,pay.www.sber.avito.booking.com-id20341.info
   - DOMAIN,paypartc.top
   - DOMAIN,penguinnow.com
@@ -795,9 +787,11 @@ payload:
   - DOMAIN,saveeeee.myshopify.com
   - DOMAIN,sayhellorugs.com
   - DOMAIN,sber.avito.avito.avito.booking.com-id809702.com
+  - DOMAIN,sber.avito.avito.pay.com-id809712.com
   - DOMAIN,sber.avito.avito.www.booking.com-id809702.com
   - DOMAIN,sber.avito.pay.avito.avito.booking.com-id809702.com
   - DOMAIN,sber.avito.pay.avito.avito.booking.com-id90123.info
+  - DOMAIN,sber.avito.pay.booking.com-id809712.com
   - DOMAIN,sber.avito.sber.avito.www.booking.com-id809702.com
   - DOMAIN,sber.avito.sber.booking.com-id809702.com
   - DOMAIN,sber.avito.sber.booking.com-id90123.info
@@ -805,6 +799,7 @@ payload:
   - DOMAIN,sber.com-id409712.com
   - DOMAIN,sber.pay.avito.avito.avito.avito.avito.com-id90123.info
   - DOMAIN,sber.pay.avito.avito.avito.avito.sber.com-id02349.info
+  - DOMAIN,sber.pay.avito.avito.avito.booking.com-id809712.com
   - DOMAIN,sber.pay.avito.avito.avito.sber.com-id02349.info
   - DOMAIN,sber.pay.avito.avito.www.booking.com-id90123.info
   - DOMAIN,sber.pay.booking.com-id809702.com
@@ -844,11 +839,9 @@ payload:
   - DOMAIN,sberbank.avito.pay.avito.avito.avito.com-id02349.info
   - DOMAIN,sberbank.avito.sber.avito.www.booking.com-id809702.com
   - DOMAIN,sberbank.avito.sber.booking.com-id809702.com
-  - DOMAIN,sberbank.avito.sber.booking.com-id809712.com
   - DOMAIN,sberbank.avito.sber.booking.com-id90123.info
   - DOMAIN,sberbank.avito.sber.com-id02349.info
   - DOMAIN,sberbank.avito.sber.com-id809702.com
-  - DOMAIN,sberbank.avito.sber.com-id809712.com
   - DOMAIN,sberbank.avito.sber.sber.booking.com-id90123.info
   - DOMAIN,sberbank.avito.www.avito.www.booking.com-id90123.info
   - DOMAIN,sberbank.avito.www.booking.com-id20341.info
@@ -866,11 +859,8 @@ payload:
   - DOMAIN,sberbank.pay.avito.avito.booking.com-id90123.info
   - DOMAIN,sberbank.pay.avito.avito.com-id90123.info
   - DOMAIN,sberbank.pay.booking.com-id809702.com
-  - DOMAIN,sberbank.pay.booking.com-id809712.com
   - DOMAIN,sberbank.pay.www.booking.com-id809702.com
-  - DOMAIN,sberbank.pay.www.booking.com-id809712.com
   - DOMAIN,sberbank.sber.booking.com-id20341.info
-  - DOMAIN,sberbank.sber.booking.com-id809712.com
   - DOMAIN,sberbank.sber.booking.com-id90123.info
   - DOMAIN,sberbank.sber.com-id02349.info
   - DOMAIN,sberbank.sber.sber.booking.com-id90123.info
@@ -1065,7 +1055,6 @@ payload:
   - DOMAIN,vkeys.online
   - DOMAIN,volcomofficial.com
   - DOMAIN,wadahlapak.top
-  - DOMAIN,waldeal.net
   - DOMAIN,walkinshoe.com
   - DOMAIN,warriordecor.com
   - DOMAIN,wavetshirt.com
@@ -1073,6 +1062,7 @@ payload:
   - DOMAIN,westernhats.net
   - DOMAIN,wezpod.com
   - DOMAIN,whbinder.com
+  - DOMAIN,whliksrvlj.webtool.sk
   - DOMAIN,wideranging-protector.com
   - DOMAIN,wind88.shop
   - DOMAIN,wintexfashions.com
@@ -1104,13 +1094,13 @@ payload:
   - DOMAIN,yandex.avito.com-id20341.info
   - DOMAIN,yandex.avito.pay.avito.avito.booking.com-id809702.com
   - DOMAIN,yandex.avito.pay.avito.avito.booking.com-id90123.info
+  - DOMAIN,yandex.avito.pay.com-id329712.com
   - DOMAIN,yandex.avito.sber.avito.www.booking.com-id809702.com
   - DOMAIN,yandex.avito.sber.booking.com-id809702.com
   - DOMAIN,yandex.avito.sber.booking.com-id90123.info
   - DOMAIN,yandex.avito.sber.com-id809702.com
   - DOMAIN,yandex.avito.www.booking.com-id20341.info
   - DOMAIN,yandex.avito.www.booking.com-id809702.com
-  - DOMAIN,yandex.booking.com-id809712.com
   - DOMAIN,yandex.com-id20341.info
   - DOMAIN,yandex.pay.avito.avito.avito.avito.avito.com-id20341.info
   - DOMAIN,yandex.pay.avito.avito.avito.avito.sber.com-id02349.info
