@@ -39302,6 +39302,7 @@ payload:
   - DOMAIN,ib.snssdk.com
   - DOMAIN,xlog.snssdk.com
   - DOMAIN,log.snssdk.com
+  - DOMAIN,cadmus.script.ac
   - DOMAIN,feliz.data.tm-awx.com
   - DOMAIN,adoric-om.com
   - DOMAIN,lz-pub-ads.com
@@ -42657,6 +42658,9 @@ payload:
   - DOMAIN,affex.org
   - DOMAIN,tagman.britishairways.com
   - DOMAIN-SUFFIX,piwik.*
+  - DOMAIN,analytics.purelovers.com
+  - DOMAIN,analytics.pixels.ai
+  - DOMAIN,globalservices.conde.digital
   - DOMAIN,tracking.pennypublications.com
   - DOMAIN,c.blue.*.com
   - DOMAIN,apcdp.apnews.com
@@ -45526,7 +45530,6 @@ payload:
   - DOMAIN,analytics.paddle.com
   - DOMAIN,analytics.pagefly.io
   - DOMAIN,analytics.piksel.com
-  - DOMAIN,analytics.pixels.ai
   - DOMAIN,analytics.pop2watch.com
   - DOMAIN,analytics.prezly.com
   - DOMAIN,analytics.qualityunit.com
@@ -46070,6 +46073,7 @@ payload:
   - DOMAIN,t.screeb.app
   - DOMAIN,t.sharethis.com
   - DOMAIN,t.smile.eu
+  - DOMAIN,t.spbx.app
   - DOMAIN,t.spot.im
   - DOMAIN,t2.t2b.click
   - DOMAIN,tag-manager.playbuzz.com
@@ -50167,16 +50171,24 @@ payload:
   - DOMAIN,alkemi.com.se
   - DOMAIN,ambassador.referralhero.com
   - DOMAIN,amd.sellingsimplified.net
+  - DOMAIN,analytics.allas.se
   - DOMAIN,analytics.apotekhjartat.se
   - DOMAIN,analytics.ciseway.se
+  - DOMAIN,analytics.elle.se
+  - DOMAIN,analytics.femina.se
   - DOMAIN,analytics.gen.shield.monitoringservice.co
+  - DOMAIN,analytics.hant.se
   - DOMAIN,analytics.hpscloud.se
   - DOMAIN,analytics.icagruppen.se
   - DOMAIN,analytics.ica.se
   - DOMAIN,analytics.kb.se
+  - DOMAIN,analytics.mabra.com
+  - DOMAIN,analytics.motherhood.se
   - DOMAIN,analytics.nikkasystems.com
+  - DOMAIN,analytics.residencemagazine.se
   - DOMAIN,analytics.smhi.se
   - DOMAIN,analytics.sunet.se
+  - DOMAIN,analytics.svenskdam.se
   - DOMAIN,analytics.svt.se
   - DOMAIN,analytics.undeco.se
   - DOMAIN,analytics.vackertvader.se
@@ -56068,6 +56080,8 @@ payload:
   - DOMAIN,rcyzsh.icu
   - DOMAIN,snifdlab.top
   - DOMAIN,oppnfev.xyz
+  - DOMAIN,njhvalu.cn
+  - DOMAIN,osisk.com
   - DOMAIN,zojyob.icu
   - DOMAIN,zopuqv.icu
   - DOMAIN,zsjpi.cn
@@ -60371,6 +60385,7 @@ payload:
   - DOMAIN,z.nowscore.com
   - DOMAIN,zt2088.com
   - DOMAIN,ztyumn.ifeng.com
+  - DOMAIN,c81.ipanocloud.com
   - DOMAIN,a*.chajiaotong.com
   - DOMAIN,a.10tianqi.com
   - DOMAIN,a.4aqq.com
@@ -60658,7 +60673,6 @@ payload:
   - DOMAIN,dm.zjut.cc
   - DOMAIN,dm.zuowenku.net
   - DOMAIN,dm1.ddwk8.cn
-  - DOMAIN,dm1.guanwawa.com
   - DOMAIN,dm1.zjydt.com
   - DOMAIN,dmm.aizhan.com
   - DOMAIN,dmr.cnhoney.com
@@ -61449,6 +61463,3 @@ payload:
   - DOMAIN,letysheeps.ru
   - DOMAIN,a4.overclockers.ua
   - DOMAIN,novunu.football-plyus.net
-  - IP-CIDR,10.10.34.34/32
-  - IP-CIDR,10.10.34.35/32
-  - IP-CIDR,10.10.34.36/32
