@@ -643,7 +643,6 @@ payload:
   - DOMAIN,helpful-web.com
   - DOMAIN,joggingavenge.com
   - DOMAIN,popupaval.com
-  - DOMAIN,a.bestcontentitem.top
   - DOMAIN,analyticsq1.com
   - DOMAIN,crentgate.com
   - DOMAIN,popcent.org
@@ -40927,7 +40926,6 @@ payload:
   - DOMAIN,c2shb.pubgw.yahoo.com
   - DOMAIN,campaigns.williamhill.com
   - DOMAIN,cdn.ad.page
-  - DOMAIN,cdn.ads.tapzin.com
   - DOMAIN,cdn.b2.ai
   - DOMAIN,cdn.wt-api.top
   - DOMAIN,cdn22904910.ahacdn.me
@@ -42702,7 +42700,6 @@ payload:
   - DOMAIN,adspot.tfgapps.com
   - DOMAIN,analytics.scalemonk.com
   - DOMAIN,vrizead.com
-  - DOMAIN,iad-*.braze.com
   - DOMAIN,adpopcorn.com
   - DOMAIN,pangle.io
   - DOMAIN,pubnative.info
@@ -42723,7 +42720,6 @@ payload:
   - DOMAIN,adslog.apexinnotech.com
   - DOMAIN,matrix.dailyinnovation.biz
   - DOMAIN,springserve.com
-  - DOMAIN,addata.mediacategory.com
   - DOMAIN,dm.toutiao.com
   - DOMAIN,ads-leaseweb.appsgeyser.com
   - DOMAIN,ads.appsgeyser.com
@@ -42768,7 +42764,6 @@ payload:
   - DOMAIN,cafe-latte.myshoplus.com
   - DOMAIN,luckyforworlds.com
   - DOMAIN,cdn-adn.rayjump.com
-  - DOMAIN,cdn-adn-*.rayjump.com
   - DOMAIN,casino-ad-mediation.me2zengame.com
   - DOMAIN,postut.cn
   - DOMAIN,promoted.soundcloud.com
@@ -44021,7 +44016,6 @@ payload:
   - DOMAIN,cdn-ra.rockcontent.com
   - DOMAIN,ra.rockcontent.com
   - DOMAIN,tracker.digitalcamp.co.kr
-  - DOMAIN,tracker.adbinead.com
   - DOMAIN,spnx.jp
   - DOMAIN,ac.ecai-report.com
   - DOMAIN,breaktime.com.tw
@@ -44076,7 +44070,6 @@ payload:
   - DOMAIN,eclog*-*.cafe24.com
   - DOMAIN,tag.goadopt.io
   - DOMAIN,tracker.cauly.co.kr
-  - DOMAIN,tk.mediacategory.com
   - DOMAIN,ck.ncclick.co.kr
   - DOMAIN,tagmanager.toast.com
   - DOMAIN,jtracking.lulusoft.com
@@ -44159,7 +44152,6 @@ payload:
   - DOMAIN,analytics.a-f.io
   - DOMAIN,analytics-api.a-f.io
   - DOMAIN,smetrics.att.com
-  - DOMAIN,global.px.quantserve.com
   - DOMAIN,client-analytics.braintreegateway.com
   - DOMAIN,log.propermessage.io
   - DOMAIN,hit.acstat.com
@@ -44293,7 +44285,6 @@ payload:
   - DOMAIN,toecircle.com
   - DOMAIN,adinsight.co.kr
   - DOMAIN,cm-exchange.toast.com
-  - DOMAIN,log.mediacategory.com
   - DOMAIN,analytic.press
   - DOMAIN,d1tracker.ru
   - DOMAIN,bagbeam.com
@@ -46566,6 +46557,8 @@ payload:
   - DOMAIN,affex.org
   - DOMAIN,tagman.britishairways.com
   - DOMAIN-SUFFIX,piwik.*
+  - DOMAIN,vf.startpage.com
+  - DOMAIN,analytics-prd.aws.wehaa.net
   - DOMAIN,tracking-api.passeidireto.com
   - DOMAIN,analytics.lasegunda.ecn.cl
   - DOMAIN,analytics.emol.com
@@ -47497,7 +47490,6 @@ payload:
   - DOMAIN,cdnstats-a.akamaihd.net
   - DOMAIN,ce-global-track-*.amazonaws.com
   - DOMAIN,cfg.imtt.qq.com
-  - DOMAIN,check.tadapi.info
   - DOMAIN,cl.canva.com
   - DOMAIN,clc.stackoverflow.com
   - DOMAIN,clck.yandex.com
@@ -47717,7 +47709,6 @@ payload:
   - DOMAIN,ea.vente-unique.com
   - DOMAIN,ea.warnerbros.fr
   - DOMAIN,eclick.baidu.com
-  - DOMAIN,edge.quantserve.com
   - DOMAIN,ef.futuroscope.com
   - DOMAIN,ems.youku.com
   - DOMAIN,engagefront.theweathernetwork.com
@@ -48125,7 +48116,6 @@ payload:
   - DOMAIN,pixel.pcworld.com
   - DOMAIN,pixel.playbuzz.com
   - DOMAIN,pixel.propublica.org
-  - DOMAIN,pixel.quantserve.com
   - DOMAIN,pixel.reddit.com
   - DOMAIN,pixel.roymorgan.com
   - DOMAIN,pixel.sojern.com
@@ -49466,7 +49456,6 @@ payload:
   - DOMAIN,analytics-1.cavai.com
   - DOMAIN,analytics-cms.whitebeard.me
   - DOMAIN,analytics-consent-manager-v2-prod.azureedge.net
-  - DOMAIN,analytics-prd.aws.wehaa.net
   - DOMAIN,analytics-scripts.cablelabs.com
   - DOMAIN,analytics.30m.com
   - DOMAIN,analytics.adobe.io
@@ -54842,7 +54831,6 @@ payload:
   - DOMAIN,sdk.pulse.schibsted.com
   - DOMAIN,se5.pliing.com
   - DOMAIN,secure.curl7bike.com
-  - DOMAIN,secure.quantserve.com
   - DOMAIN,secure.reaktion.se
   - DOMAIN,secure.statcounter.com
   - DOMAIN,seenthis.se
@@ -61285,6 +61273,10 @@ payload:
   - DOMAIN,sahqoo.com
   - DOMAIN,bxlmrl.xyz
   - DOMAIN,kyokglm.icu
+  - DOMAIN,zca31.com
+  - DOMAIN,shangwenchao4.cn
+  - DOMAIN,dceuhnpc57.shop
+  - DOMAIN,hsylieu.top
   - DOMAIN,zuvbzl.xyz
   - DOMAIN,zwdtvx.xyz
   - DOMAIN,zwxxcb.icu
@@ -65940,6 +65932,210 @@ payload:
   - DOMAIN,iranuschsahm.sbs
   - DOMAIN,seownae.space
   - DOMAIN,maeshhtr.com
+  - DOMAIN,middlepoint.co.kr
+  - DOMAIN,authanalysis.com
+  - DOMAIN,planmix.co.kr
+  - DOMAIN,pangolin*.sgsnssdk.com
+  - DOMAIN,cp.edl.co.kr
+  - DOMAIN,ad.*.doubleclick.net
+  - DOMAIN,cdn-adn-*.rayjump.com
+  - DOMAIN,shoppingcall.me
+  - DOMAIN,bidr.io
+  - DOMAIN,quantserve.com
+  - DOMAIN,marketingking.co.kr
+  - DOMAIN,catad5959.com
+  - DOMAIN,mobon.net
+  - DOMAIN,thetopic.co.kr
+  - DOMAIN,msadsense.com
+  - DOMAIN,tadapi.info
+  - DOMAIN,mrep.kr
+  - DOMAIN,fastview.co.kr
+  - DOMAIN,mediacategory.com
+  - DOMAIN,innorame.com
+  - DOMAIN,adbinead.com
+  - DOMAIN,stax.kr
+  - DOMAIN,kodcad.kr
+  - DOMAIN,hancomad.com
+  - DOMAIN,ahnlabad.com
+  - DOMAIN,tagtree.co.kr
+  - DOMAIN,onepx.kr
+  - DOMAIN,adbc.io
+  - DOMAIN,nefing.com
+  - DOMAIN,mediabp.kr
+  - DOMAIN,newscover.co.kr
+  - DOMAIN,vrixon.com
+  - DOMAIN,admax.me
+  - DOMAIN,bestcontentitem.top
+  - DOMAIN,koreanzad.xyz
+  - DOMAIN,admonseller.com
+  - DOMAIN,tnkad.net
+  - DOMAIN,ndexww.com
+  - DOMAIN,admaru.net
+  - DOMAIN,pltapad.com
+  - DOMAIN,mobwithad.com
+  - DOMAIN,mmnneo.com
+  - DOMAIN,xn--s-4z5e652a53k.com
+  - DOMAIN,categorysort.com
+  - DOMAIN,adcastmarket.com
+  - DOMAIN,centaurs-rest.coupang.com
+  - DOMAIN,ad.cashdoc.io
+  - DOMAIN,sv.govkorea24.com
+  - DOMAIN,static.bidrich.com
+  - DOMAIN,ad.tpmn.io
+  - DOMAIN,cdn.nhnace.com
+  - DOMAIN,d23poh9wsma6va.cloudfront.net
+  - DOMAIN,ad1.missyusa.com
+  - DOMAIN,ads.motorgraph.com
+  - DOMAIN,aproxylog-next.tving.com
+  - DOMAIN,aproxy-next.tving.com
+  - DOMAIN,ad.doorigo.co.kr
+  - DOMAIN,adad.z00.kr
+  - DOMAIN,adreal.dt.co.kr
+  - DOMAIN,ad-api.band.us
+  - DOMAIN,live.primis.tech
+  - DOMAIN,pub.tvads.co.kr
+  - DOMAIN,api.linkmine.co.kr
+  - DOMAIN,io.smartmyd.com
+  - DOMAIN,dhgywazgeek0d.cloudfront.net
+  - DOMAIN,shopsquare.naver.com
+  - DOMAIN,adcenter-api.cashwalk.co
+  - DOMAIN,adxv.zum.com
+  - DOMAIN,ad.viewus.co.kr
+  - DOMAIN,z.o00.kr
+  - DOMAIN,ms.applvn.com
+  - DOMAIN,iad-*.braze.com
+  - DOMAIN,img.side.mythiell.com
+  - DOMAIN,static.tpmn.co.kr
+  - DOMAIN,js.newsmobile.co.kr
+  - DOMAIN,ad.smartinmedia.co.kr
+  - DOMAIN,adw.gomtv.com
+  - DOMAIN,ad.ari.skt-jive.com
+  - DOMAIN,ad.planbplus.co.kr
+  - DOMAIN,ad.admine.co.kr
+  - DOMAIN,ads.sportsseoul.com
+  - DOMAIN,ad.cyycoy.com
+  - DOMAIN,wmars-client.wemakeprice.com
+  - DOMAIN,displayad.lotteon.com
+  - DOMAIN,ad-script.viewus.co.kr
+  - DOMAIN,ad-insight.sellermill.com
+  - DOMAIN,serv.ds.kakao.com
+  - DOMAIN,ad.auction.co.kr
+  - DOMAIN,dadispapi.auction.co.kr
+  - DOMAIN,aduniv.nesin.com
+  - DOMAIN,adserver.joseilbo.com
+  - DOMAIN,finead.o00.kr
+  - DOMAIN,md.r114.co.kr
+  - DOMAIN,ad5.koreadaily.com
+  - DOMAIN,mini.m-able.app
+  - DOMAIN,ads.uwayapply.com
+  - DOMAIN,daimg.encar.com
+  - DOMAIN,amp.diningcode.com
+  - DOMAIN,dmxleo.dailymotion.com
+  - DOMAIN,addb.interpark.com
+  - DOMAIN,ad1.sportschosun.com
+  - DOMAIN,adimg.newdaily.co.kr
+  - DOMAIN,api.botad.kr
+  - DOMAIN,adimg.cgv.co.kr
+  - DOMAIN,ad.cgv.co.kr
+  - DOMAIN,ad2.mimint.co.kr
+  - DOMAIN,wwwads.seoul.co.kr
+  - DOMAIN,ad.themedianw.com
+  - DOMAIN,ad.3dpop.kr
+  - DOMAIN,cdndn.3dpop.kr
+  - DOMAIN,ad.pping.kr
+  - DOMAIN,nkwadv.nate.com
+  - DOMAIN,ad.search.nate.com
+  - DOMAIN,cyad.nate.com
+  - DOMAIN,ads.gamemeca.com
+  - DOMAIN,adcdn.gamemeca.com
+  - DOMAIN,trendpick.shopping.naver.com
+  - DOMAIN,powerclick.about.co.kr
+  - DOMAIN,ads.tapzin.com
+  - DOMAIN,advod.sbs.co.kr
+  - DOMAIN,adservice.sbs.co.kr
+  - DOMAIN,cpa.greenp.kr
+  - DOMAIN,api.valista.io
+  - DOMAIN,api.greenp.kr
+  - DOMAIN,ad-img.ebaykorea.com
+  - DOMAIN,api.ezadsystem.com
+  - DOMAIN,ad.ciokorea.com
+  - DOMAIN,cf-eba.everytime.kr
+  - DOMAIN,ad.everytime.kr
+  - DOMAIN,shoppingbox.zum.com
+  - DOMAIN,ad.zumst.com
+  - DOMAIN,adxr.zum.com
+  - DOMAIN,ads.mobitree.co.kr
+  - DOMAIN,ad.danawa.com
+  - DOMAIN,xconf.cauly.co.kr
+  - DOMAIN,ad.khan.co.kr
+  - DOMAIN,adservice.hani.co.kr
+  - DOMAIN,adx.mocoplex.com
+  - DOMAIN,xdsp.snadx.com
+  - DOMAIN,gwx.adnext.co
+  - DOMAIN,action.adoffice.11st.co.kr
+  - DOMAIN,adw.heraldm.com
+  - DOMAIN,ad.adjw.co.kr
+  - DOMAIN,adv.khan.co.kr
+  - DOMAIN,ad.yonhapnews.co.kr
+  - DOMAIN,nvapi.feeldmc.com
+  - DOMAIN,imgnewad.ytn.co.kr
+  - DOMAIN,adv.zdnet.co.kr
+  - DOMAIN,nad.tf.co.kr
+  - DOMAIN,adc.ohmynews.com
+  - DOMAIN,ad.kmib.co.kr
+  - DOMAIN,ads.kmib.co.kr
+  - DOMAIN,adimage.hankookilbo.com
+  - DOMAIN,ad.hankookilbo.com
+  - DOMAIN,adimg*.search.naver.net
+  - DOMAIN,ad*.thisisgame.com
+  - DOMAIN,ads.adoffice.11st.co.kr
+  - DOMAIN,ad.feedbag.co.kr
+  - DOMAIN,ad.ilikesponsorad.com
+  - DOMAIN,ad.bidrich.com
+  - DOMAIN,displayadimg.zumst.com
+  - DOMAIN,ad.ilbe.com
+  - DOMAIN,acache.ilbe.com
+  - DOMAIN,displayad.zum.com
+  - DOMAIN,networkad.nate.com
+  - DOMAIN,cyad1.nate.com
+  - DOMAIN,adimg.nate.com
+  - DOMAIN,api-ao-list.adison.co
+  - DOMAIN,ad-api.enuri.info
+  - DOMAIN,ad.newspim.com
+  - DOMAIN,ad.imp.joins.com
+  - DOMAIN,ads.inven.co.kr
+  - DOMAIN,addc.dcinside.com
+  - DOMAIN,adscdn.orbi.kr
+  - DOMAIN,ads.orbi.kr
+  - DOMAIN,ads.mtgroup.kr
+  - DOMAIN,search-ads-api.joongna.com
+  - DOMAIN,ds.11st.co.kr
+  - DOMAIN,ad.mrab.co.kr
+  - DOMAIN,ad.mediafarm.co.kr
+  - DOMAIN,adsrv-up.mcrony.com
+  - DOMAIN,ads.priel.co.kr
+  - DOMAIN,ad.doyouad.com
+  - DOMAIN,ad.ajitad.co.kr
+  - DOMAIN,simg.imadrep.co.kr
+  - DOMAIN,adv.dailyissue.co.kr
+  - DOMAIN,ad.idnad.co.kr
+  - DOMAIN,minishop.linkprice.com
+  - DOMAIN,ad.tjtune.com
+  - DOMAIN,ad*.wisenut.co.kr
+  - DOMAIN,ad.esmplus.com
+  - DOMAIN,adcheck.about.co.kr
+  - DOMAIN,ads.mncmedia.co.kr
+  - DOMAIN,ssp.meba.kr
+  - DOMAIN,adapi.about.co.kr
+  - DOMAIN,adx.turl.co.kr
+  - DOMAIN,adservice.google.co.*
+  - DOMAIN,tvetamovie.pstatic.net
+  - DOMAIN,adv.imadrep.co.kr
+  - DOMAIN,ads-*.v.ssp.yahoo.com
+  - DOMAIN,safeframe.googlesyndication.com
+  - DOMAIN,adservice.google.com
+  - DOMAIN,i.keezip.com
+  - DOMAIN,awd.spochak.com
   - DOMAIN,abcounter.de
   - DOMAIN,mobileanalytics.*.amazonaws.com
   - DOMAIN,affiliate.mercola.com
