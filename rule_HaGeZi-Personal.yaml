@@ -4031,7 +4031,6 @@ payload:
   - DOMAIN,nyidt.adsafeprotected.com
   - DOMAIN,ordt.adsafeprotected.com
   - DOMAIN,orfw.adsafeprotected.com
-  - DOMAIN,orpixel.adsafeprotected.com
   - DOMAIN,orvideo.adsafeprotected.com
   - DOMAIN,anycast.pixel.adsafeprotected.com
   - DOMAIN,pm.adsafeprotected.com
@@ -4401,7 +4400,87 @@ payload:
   - DOMAIN,adswam.com
   - DOMAIN,adsweb.vn
   - DOMAIN,adswin.net
-  - DOMAIN,adswizz.com
+  - DOMAIN,analytics.adswizz.com
+  - DOMAIN,attribution.adswizz.com
+  - DOMAIN,audioserve.adswizz.com
+  - DOMAIN,bigrradio.adswizz.com
+  - DOMAIN,cdn.adswizz.com
+  - DOMAIN,cox.adswizz.com
+  - DOMAIN,data-processing.adswizz.com
+  - DOMAIN,dc-us.adswizz.com
+  - DOMAIN,delivery-cdn-cf.adswizz.com
+  - DOMAIN,delivery-s3.adswizz.com
+  - DOMAIN,accuradio.deliveryengine.adswizz.com
+  - DOMAIN,ams.deliveryengine.adswizz.com
+  - DOMAIN,antenne.deliveryengine.adswizz.com
+  - DOMAIN,apex.deliveryengine.adswizz.com
+  - DOMAIN,astro.deliveryengine.adswizz.com
+  - DOMAIN,audiomack.deliveryengine.adswizz.com
+  - DOMAIN,clearchannel.deliveryengine.adswizz.com
+  - DOMAIN,consumable.deliveryengine.adswizz.com
+  - DOMAIN,cox.deliveryengine.adswizz.com
+  - DOMAIN,cpd.deliveryengine.adswizz.com
+  - DOMAIN,currentmedia.deliveryengine.adswizz.com
+  - DOMAIN,daxeu.deliveryengine.adswizz.com
+  - DOMAIN,deezer.deliveryengine.adswizz.com
+  - DOMAIN,dentsu.deliveryengine.adswizz.com
+  - DOMAIN,di.deliveryengine.adswizz.com
+  - DOMAIN,divisiond.deliveryengine.adswizz.com
+  - DOMAIN,ec2eu-de-5-us-west-2-vpc-20180416.deliveryengine.adswizz.com
+  - DOMAIN,ec2eu-de-6.deliveryengine.adswizz.com
+  - DOMAIN,ec2eu-de-6-vpc-20200422.deliveryengine.adswizz.com
+  - DOMAIN,ec2uswest2-de-5.deliveryengine.adswizz.com
+  - DOMAIN,empirestreaming.deliveryengine.adswizz.com
+  - DOMAIN,entravision.deliveryengine.adswizz.com
+  - DOMAIN,ffh.deliveryengine.adswizz.com
+  - DOMAIN,ideabar.deliveryengine.adswizz.com
+  - DOMAIN,mbuy.deliveryengine.adswizz.com
+  - DOMAIN,musify.deliveryengine.adswizz.com
+  - DOMAIN,nrc.deliveryengine.adswizz.com
+  - DOMAIN,octave.deliveryengine.adswizz.com
+  - DOMAIN,odeeo.deliveryengine.adswizz.com
+  - DOMAIN,pocketfm.deliveryengine.adswizz.com
+  - DOMAIN,podcastone.deliveryengine.adswizz.com
+  - DOMAIN,podiumaudio.deliveryengine.adswizz.com
+  - DOMAIN,proxidigital.deliveryengine.adswizz.com
+  - DOMAIN,publicis.deliveryengine.adswizz.com
+  - DOMAIN,rds.deliveryengine.adswizz.com
+  - DOMAIN,reporting.deliveryengine.adswizz.com
+  - DOMAIN,reporting-geo.deliveryengine.adswizz.com
+  - DOMAIN,reports.deliveryengine.adswizz.com
+  - DOMAIN,rmsi.deliveryengine.adswizz.com
+  - DOMAIN,rtlfr.deliveryengine.adswizz.com
+  - DOMAIN,sbs.deliveryengine.adswizz.com
+  - DOMAIN,sbswo.deliveryengine.adswizz.com
+  - DOMAIN,sonic.deliveryengine.adswizz.com
+  - DOMAIN,soundcloud.deliveryengine.adswizz.com
+  - DOMAIN,spreaker.deliveryengine.adswizz.com
+  - DOMAIN,streamguys.deliveryengine.adswizz.com
+  - DOMAIN,synchroscript.deliveryengine.adswizz.com
+  - DOMAIN,td.deliveryengine.adswizz.com
+  - DOMAIN,timmedia.deliveryengine.adswizz.com
+  - DOMAIN,townsq.deliveryengine.adswizz.com
+  - DOMAIN,tunein.deliveryengine.adswizz.com
+  - DOMAIN,us.deliveryengine.adswizz.com
+  - DOMAIN,veritone.deliveryengine.adswizz.com
+  - DOMAIN,videobyte.deliveryengine.adswizz.com
+  - DOMAIN,winstar.deliveryengine.adswizz.com
+  - DOMAIN,zemeho.deliveryengine.adswizz.com
+  - DOMAIN,devel.adswizz.com
+  - DOMAIN,pixelg.ec2eu.adswizz.com
+  - DOMAIN,synchrobox.ec2eu.adswizz.com
+  - DOMAIN,metrics.adswizz.com
+  - DOMAIN,deliveryengine.pandora.adswizz.com
+  - DOMAIN,pixel.adswizz.com
+  - DOMAIN,pixelg.adswizz.com
+  - DOMAIN,randi.adswizz.com
+  - DOMAIN,sonar.adswizz.com
+  - DOMAIN,staging.adswizz.com
+  - DOMAIN,streaming.adswizz.com
+  - DOMAIN,synchrobox.adswizz.com
+  - DOMAIN,synchroscript.adswizz.com
+  - DOMAIN,tunein.adswizz.com
+  - DOMAIN,zc.adswizz.com
   - DOMAIN,adsximg.com
   - DOMAIN,adsxtits.com
   - DOMAIN,adsxtits.pro
@@ -24179,6 +24258,7 @@ payload:
   - DOMAIN,d18e74vjvmvza1.cloudfront.net
   - DOMAIN,d18g6t7whf8ejf.cloudfront.net
   - DOMAIN,d18hqfm1ev805k.cloudfront.net
+  - DOMAIN,d18j3cpsvifpk9.cloudfront.net
   - DOMAIN,d18kg2zy9x3t96.cloudfront.net
   - DOMAIN,d18mealirgdbbz.cloudfront.net
   - DOMAIN,d18myvrsrzjrd7.cloudfront.net
@@ -60362,7 +60442,6 @@ payload:
   - DOMAIN,hybrid.ru
   - DOMAIN,analytics.hybrid-cms.de
   - DOMAIN,analytics.hybridesevent.de
-  - DOMAIN,hybridization809.site
   - DOMAIN,analytic.hybso.ci
   - DOMAIN,hycantyoubelik.com
   - DOMAIN,analytics.hyden.it
@@ -112948,7 +113027,6 @@ payload:
   - DOMAIN,technicianforestallproper.com
   - DOMAIN,myprofile.technics.eu
   - DOMAIN,analytics.technidesk.com
-  - DOMAIN,techniguitare.com
   - DOMAIN,matomo.technik-museum.de
   - DOMAIN,analytics.technik-weiling.de
   - DOMAIN,pi.technik3d.com
@@ -118864,6 +118942,7 @@ payload:
   - DOMAIN,a8cv.udition.jp
   - DOMAIN,ad.udition.jp
   - DOMAIN,udjdpyrt.xyz
+  - DOMAIN,udkc7.com
   - DOMAIN,udkcrj.com
   - DOMAIN,udkpcc.xyz
   - DOMAIN,udl.io
