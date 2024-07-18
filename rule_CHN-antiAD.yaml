@@ -3240,7 +3240,6 @@ payload:
   - DOMAIN,adthletic.com
   - DOMAIN,adthrive.com
   - DOMAIN,adreport.adtianmai.com
-  - DOMAIN,https-filtering-check.adtidy.org
   - DOMAIN,adtilt.com
   - DOMAIN,adtimaserver.vn
   - DOMAIN,adtiming.com
@@ -12548,6 +12547,9 @@ payload:
   - DOMAIN,boostog.net
   - DOMAIN,share.boostorder.com
   - DOMAIN,polhvf.bootbarn.com
+  - DOMAIN,bootcdn.cn
+  - DOMAIN,bootcdn.net
+  - DOMAIN,bootcss.com
   - DOMAIN,bootharchie.com
   - DOMAIN,smetrics.boothehvac.com
   - DOMAIN,bootstrap-framework.org
@@ -22408,7 +22410,6 @@ payload:
   - DOMAIN,terms-drcn.platform.dbankcloud.cn
   - DOMAIN,weather-community-drcn.weather.dbankcloud.cn
   - DOMAIN,grs.dbankcloud.com
-  - DOMAIN,oauth-login-drcn.platform.dbankcloud.com
   - DOMAIN,grs.platform.dbankcloud.ru
   - DOMAIN,m.dbaof.com
   - DOMAIN,dbaomgnsahy.com
@@ -35639,7 +35640,6 @@ payload:
   - DOMAIN,firebaselogging-pa.googleapis.com
   - DOMAIN,firebaselogging.googleapis.com
   - DOMAIN,imasdk.googleapis.com
-  - DOMAIN,firebaseinstallations.googleapis.com
   - DOMAIN,jnn-pa.googleapis.com
   - DOMAIN,footprints-pa.googleapis.com
   - DOMAIN,attributiontrackingga.googlecode.com
@@ -78465,6 +78465,8 @@ payload:
   - DOMAIN,static-cnt.bid
   - DOMAIN,static-sb.com
   - DOMAIN,static-srv.com
+  - DOMAIN,staticfile.net
+  - DOMAIN,staticfile.org
   - DOMAIN,px.staticfiles.at
   - DOMAIN,staticiv.com
   - DOMAIN,staticjs.cn
@@ -93468,7 +93470,6 @@ payload:
   - DOMAIN,xiaomeihq.info
   - DOMAIN,xiaomengquan.cn
   - DOMAIN,xiaomengxiong.com
-  - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,ad.intl.xiaomi.com
   - DOMAIN,ad.xiaomi.com
   - DOMAIN,api.installer.xiaomi.com
