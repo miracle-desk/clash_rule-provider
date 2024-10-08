@@ -10462,12 +10462,39 @@ payload:
   - DOMAIN,vpn.tfbnw.net
   - DOMAIN,zero.freebasics.com
   - DOMAIN,zero.internet.org
+  - DOMAIN,instagr.am
+  - DOMAIN,www.instagr.am
+  - DOMAIN,threads.net
+  - DOMAIN,www.threads.net
+  - DOMAIN,d2rdfnizen5apl.cloudfront.net
   - DOMAIN,www.t.co
+  - DOMAIN,www.x.com
+  - DOMAIN,x.com
+  - DOMAIN,dms-akam.licdn.com
+  - DOMAIN,dms.licdn.com
+  - DOMAIN,media-akam.licdn.com
+  - DOMAIN,media-ecst.licdn.com
+  - DOMAIN,media-exp1.licdn.com
+  - DOMAIN,media-exp3.licdn.com
   - DOMAIN,media.licdn.com
+  - DOMAIN,snap.licdn.com
+  - DOMAIN,static-akam.licdn.com
+  - DOMAIN,static-azur.licdn.com
+  - DOMAIN,static-ecst.licdn.com
+  - DOMAIN,static-od.licdn.com
   - DOMAIN,static.licdn.com
   - DOMAIN,www.licdn.com
+  - DOMAIN,a1-images.myspacecdn.com
+  - DOMAIN,a1.ec-images.myspacecdn.com
+  - DOMAIN,a2-images.myspacecdn.com
+  - DOMAIN,a2.ec-images.myspacecdn.com
+  - DOMAIN,a3-images.myspacecdn.com
+  - DOMAIN,a3.ec-images.myspacecdn.com
+  - DOMAIN,a4-images.myspacecdn.com
+  - DOMAIN,a4.ec-images.myspacecdn.com
   - DOMAIN,browseusers.myspace.com
   - DOMAIN,classifieds.myspace.com
+  - DOMAIN,cms.myspacecdn.com
   - DOMAIN,collect.myspace.com
   - DOMAIN,events.myspace.com
   - DOMAIN,favorites.myspace.com
@@ -10511,20 +10538,28 @@ payload:
   - DOMAIN,www.myspace.com
   - DOMAIN,www.myspacecdn.com
   - DOMAIN,www1.myspace.com
+  - DOMAIN,x.myspacecdn.com
   - DOMAIN,pin.it
+  - DOMAIN,a.tumblr.com
   - DOMAIN,api.tumblr.com
   - DOMAIN,assets.tumblr.com
   - DOMAIN,cookiex.ngd.yahoo.com
+  - DOMAIN,embed.tumblr.com
+  - DOMAIN,engineering.tumblr.com
+  - DOMAIN,platform.tumblr.com
   - DOMAIN,px.srvcs.tumblr.com
   - DOMAIN,secure.assets.tumblr.com
+  - DOMAIN,secure.static.tumblr.com
+  - DOMAIN,staff.tumblr.com
   - DOMAIN,static.tumblr.com
   - DOMAIN,tumblr.com
   - DOMAIN,tumblr.tumblr.com
+  - DOMAIN,v.tumblr.com
+  - DOMAIN,vt.tumblr.com
   - DOMAIN,www.tumblr.com
-  - DOMAIN,plus.google.com
-  - DOMAIN,plus.l.google.com
   - DOMAIN,a.thumbs.redditmedia.com
   - DOMAIN,about.reddit.com
+  - DOMAIN,accounts.reddit.com
   - DOMAIN,alb.reddit.com
   - DOMAIN,amp-reddit-com.cdn.ampproject.org
   - DOMAIN,b.thumbs.redditmedia.com
@@ -10532,6 +10567,7 @@ payload:
   - DOMAIN,d.thumbs.redditmedia.com
   - DOMAIN,e.reddit.com
   - DOMAIN,e.thumbs.redditmedia.com
+  - DOMAIN,embed.reddit.com
   - DOMAIN,emoji.redditmedia.com
   - DOMAIN,en.reddit.com
   - DOMAIN,events.reddit.com
@@ -10542,10 +10578,14 @@ payload:
   - DOMAIN,g.redditmedia.com
   - DOMAIN,gateway.reddit.com
   - DOMAIN,gp.reddit.com
+  - DOMAIN,gql-fed.reddit.com
+  - DOMAIN,gql-realtime.reddit.com
+  - DOMAIN,gql.reddit.com
   - DOMAIN,hw.reddit.com
   - DOMAIN,i.redd.it
   - DOMAIN,i.reddit.com
   - DOMAIN,i.redditmedia.com
+  - DOMAIN,i.reddituploads.com
   - DOMAIN,it.reddit.com
   - DOMAIN,m.reddit.com
   - DOMAIN,meta-api.reddit.com
@@ -10557,13 +10597,18 @@ payload:
   - DOMAIN,old.reddit.com
   - DOMAIN,oops.redditmedia.com
   - DOMAIN,out.reddit.com
+  - DOMAIN,pixel.redditmedia.com
   - DOMAIN,preview.redd.it
   - DOMAIN,redd.it
   - DOMAIN,reddit-image.s3.amazonaws.com
+  - DOMAIN,reddit-stream.com
   - DOMAIN,reddit-uploaded-media.s3-accelerate.amazonaws.com
   - DOMAIN,reddit-uploaded-video.s3-accelerate.amazonaws.com
   - DOMAIN,reddit.com
   - DOMAIN,reddit.map.fastly.net
+  - DOMAIN,redditama.reddit.com
+  - DOMAIN,redditblog.com
+  - DOMAIN,redditgifts.com
   - DOMAIN,redditgifts.s3.amazonaws.com
   - DOMAIN,redditmedia.com
   - DOMAIN,s.reddit.com
@@ -10571,70 +10616,23 @@ payload:
   - DOMAIN,sendbird.reddit.com
   - DOMAIN,ssl.reddit.com
   - DOMAIN,static.redditgifts.com
+  - DOMAIN,stats.redditmedia.com
+  - DOMAIN,strapi.reddit.com
   - DOMAIN,styles.redditmedia.com
   - DOMAIN,us.reddit.com
   - DOMAIN,v.redd.it
-  - DOMAIN,wh.reddit.com
-  - DOMAIN,www.reddit.com
-  - DOMAIN,www.redditgifts.com
-  - DOMAIN,www.redditmedia.com
-  - DOMAIN,www.redditstatic.com
-  - DOMAIN,instagr.am
-  - DOMAIN,www.instagr.am
-  - DOMAIN,threads.net
-  - DOMAIN,www.threads.net
-  - DOMAIN,d2rdfnizen5apl.cloudfront.net
-  - DOMAIN,www.x.com
-  - DOMAIN,x.com
-  - DOMAIN,dms-akam.licdn.com
-  - DOMAIN,dms.licdn.com
-  - DOMAIN,media-akam.licdn.com
-  - DOMAIN,media-ecst.licdn.com
-  - DOMAIN,media-exp1.licdn.com
-  - DOMAIN,media-exp3.licdn.com
-  - DOMAIN,snap.licdn.com
-  - DOMAIN,static-akam.licdn.com
-  - DOMAIN,static-azur.licdn.com
-  - DOMAIN,static-ecst.licdn.com
-  - DOMAIN,static-od.licdn.com
-  - DOMAIN,a1-images.myspacecdn.com
-  - DOMAIN,a1.ec-images.myspacecdn.com
-  - DOMAIN,a2-images.myspacecdn.com
-  - DOMAIN,a2.ec-images.myspacecdn.com
-  - DOMAIN,a3-images.myspacecdn.com
-  - DOMAIN,a3.ec-images.myspacecdn.com
-  - DOMAIN,a4-images.myspacecdn.com
-  - DOMAIN,a4.ec-images.myspacecdn.com
-  - DOMAIN,cms.myspacecdn.com
-  - DOMAIN,x.myspacecdn.com
-  - DOMAIN,a.tumblr.com
-  - DOMAIN,embed.tumblr.com
-  - DOMAIN,engineering.tumblr.com
-  - DOMAIN,platform.tumblr.com
-  - DOMAIN,secure.static.tumblr.com
-  - DOMAIN,staff.tumblr.com
-  - DOMAIN,v.tumblr.com
-  - DOMAIN,vt.tumblr.com
-  - DOMAIN,accounts.reddit.com
-  - DOMAIN,embed.reddit.com
-  - DOMAIN,gql-fed.reddit.com
-  - DOMAIN,gql-realtime.reddit.com
-  - DOMAIN,gql.reddit.com
-  - DOMAIN,i.reddituploads.com
-  - DOMAIN,pixel.redditmedia.com
-  - DOMAIN,reddit-stream.com
-  - DOMAIN,redditama.reddit.com
-  - DOMAIN,redditblog.com
-  - DOMAIN,redditgifts.com
-  - DOMAIN,stats.redditmedia.com
-  - DOMAIN,strapi.reddit.com
   - DOMAIN,w3-reporting-csp.reddit.com
   - DOMAIN,w3-reporting-nel.reddit.com
   - DOMAIN,w3-reporting.reddit.com
+  - DOMAIN,wh.reddit.com
   - DOMAIN,www.np.reddit.com
   - DOMAIN,www.reddit-stream.com
+  - DOMAIN,www.reddit.com
   - DOMAIN,www.redditblog.com
+  - DOMAIN,www.redditgifts.com
   - DOMAIN,www.redditinc.com
+  - DOMAIN,www.redditmedia.com
+  - DOMAIN,www.redditstatic.com
   - DOMAIN,byteglb.com
   - DOMAIN,dm-maliva16.byteoversea.com
   - DOMAIN,dm.bytedance.com
