@@ -38023,6 +38023,7 @@ payload:
   - DOMAIN,int.vlancaa.site
   - DOMAIN,int.vlancaa.fun
   - DOMAIN,tok.vaicore.xyz
+  - DOMAIN-SUFFIX,snowplow-collector.*
   - DOMAIN,logs-ingress.svc.vinted.com
   - DOMAIN,analytics.baliusuperapp.xyz
   - DOMAIN,log-va-us-looki.capcutapi.com
@@ -38338,7 +38339,6 @@ payload:
   - DOMAIN,adtracker.oilpainting.colorbynumber.veraxen.com
   - DOMAIN,adtracker.mkjigsaw.com
   - DOMAIN,stats.oilpainting.colorbynumber.veraxen.com
-  - DOMAIN,snowplow-collector.apartmentlist.io
   - DOMAIN,qa-events-schema.viacom.tech
   - DOMAIN,dns-clientinfo.cbsivideo.com
   - DOMAIN,trace.qq.com
@@ -50004,6 +50004,8 @@ payload:
   - DOMAIN,cnzz.trafficmanager.net
   - DOMAIN,wyvpkmbj.icu
   - DOMAIN,thunnqyo.com
+  - DOMAIN,wjimtye.top
+  - DOMAIN,phainoirs.com
   - DOMAIN,attelaoe.com
   - DOMAIN,dsoxgdjv.icu
   - DOMAIN,sjimtyb.top
