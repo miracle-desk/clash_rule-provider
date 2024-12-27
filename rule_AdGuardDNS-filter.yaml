@@ -31715,6 +31715,9 @@ payload:
   - DOMAIN,ib.snssdk.com
   - DOMAIN,xlog.snssdk.com
   - DOMAIN,log.snssdk.com
+  - DOMAIN,k-words.io
+  - DOMAIN,tlmtr.org
+  - DOMAIN,sentinelbi.com
   - DOMAIN,ascendeummedia.com
   - DOMAIN,agma-analytics.de
   - DOMAIN,cdn-gw-dv.vip
@@ -31877,7 +31880,6 @@ payload:
   - DOMAIN,pbcs.decider.com
   - DOMAIN,pbcs.pagesix.com
   - DOMAIN,tagtoo.co
-  - DOMAIN,sentinelbi.com
   - DOMAIN,count.sibbo.net
   - DOMAIN,umami.is
   - DOMAIN,logger.torimochi-ad.net
@@ -35244,6 +35246,7 @@ payload:
   - DOMAIN,atinternet.com
   - DOMAIN,tagcommander.com
   - DOMAIN,commandersact.com
+  - DOMAIN-SUFFIX,tccd.douglas.*
   - DOMAIN,storetail.io
   - DOMAIN,dnsdelegation.io
   - DOMAIN,dataunlocker.com
@@ -35279,6 +35282,12 @@ payload:
   - DOMAIN,trekkww.space
   - DOMAIN,trekkeeee.space
   - DOMAIN,trekkww.fun
+  - DOMAIN-SUFFIX,*.stape.net
+  - DOMAIN-SUFFIX,load.gtm.*
+  - DOMAIN-SUFFIX,load.sgtm.*
+  - DOMAIN-SUFFIX,load.ss.*
+  - DOMAIN-SUFFIX,load.sst.*
+  - DOMAIN-SUFFIX,thegreatesthits.*
   - DOMAIN,e.truedata.co
   - DOMAIN,webtrekk.com
   - DOMAIN,webtrekk-asia.net
@@ -35287,10 +35296,10 @@ payload:
   - DOMAIN,webtrekk.net
   - DOMAIN,wizaly.com
   - DOMAIN,d1udjti6mtxz9q.cloudfront.net
-  - DOMAIN-SUFFIX,*.stape.net
   - DOMAIN,tagman.britishairways.com
   - DOMAIN-SUFFIX,piwik.*
   - DOMAIN,gtm.temu.com
+  - DOMAIN-SUFFIX,*.prod.pr.analytics.console.aws.a2z.com
   - DOMAIN,log.shortbread.analytics.console.aws.a2z.com
   - DOMAIN,log.shortbread.aws.dev
   - DOMAIN,trck.pix.aak.prod-na.turntable.sonic.advertising.amazon.dev
@@ -37942,6 +37951,7 @@ payload:
   - DOMAIN,int.vlancaa.site
   - DOMAIN,int.vlancaa.fun
   - DOMAIN,tok.vaicore.xyz
+  - DOMAIN,events.watchtower.imdbtv.amazon.dev
   - DOMAIN,mobile-production.content-square.net
   - DOMAIN,sf16-static.i18n-pglstatp.com
   - DOMAIN,log.pullcenter.live
@@ -40442,6 +40452,7 @@ payload:
   - DOMAIN,adwile.com
   - DOMAIN,mpuls.ru
   - DOMAIN,newseek.org
+  - DOMAIN-SUFFIX,*.infox.sg
   - DOMAIN,sv-pr.ru
   - DOMAIN,svitnews.com
   - DOMAIN,ferdarius.com
@@ -45823,6 +45834,7 @@ payload:
   - DOMAIN,chinhphu.cc
   - DOMAIN,chinhphu.dulieucutru.org
   - DOMAIN,chinhphu.hodancu.com
+  - DOMAIN,chinhphu.kbshkdt.org
   - DOMAIN,chovayfecredit.com
   - DOMAIN,chovaynhanh.online
   - DOMAIN,chovaytiengopsg.com
@@ -47691,6 +47703,7 @@ payload:
   - DOMAIN,proapkcrack.com
   - DOMAIN,procfullcracked.com
   - DOMAIN,procrackfree.com
+  - DOMAIN,profileid.info
   - DOMAIN,prolicensekeys.com
   - DOMAIN,promomobilsuzukijakarta.com
   - DOMAIN,provider.giize.com
@@ -49972,6 +49985,8 @@ payload:
   - DOMAIN,vns86.oss-*.aliyuncs.com
   - DOMAIN,zhizhizhizhi.oss-*.aliyuncs.com
   - DOMAIN,cnzz.trafficmanager.net
+  - DOMAIN,ncvwnp.icu
+  - DOMAIN,sachaits.com
   - DOMAIN,pzzedx.icu
   - DOMAIN,owilmik.top
   - DOMAIN,jy7.icu
@@ -49980,6 +49995,7 @@ payload:
   - DOMAIN,zaeqrath.com
   - DOMAIN,qovunx.com
   - DOMAIN,lurefq.com
+  - DOMAIN,lwilmil.top
   - DOMAIN,vriesziy.com
   - DOMAIN,rwdjrn.icu
   - DOMAIN,twilmii.top
@@ -50212,7 +50228,6 @@ payload:
   - DOMAIN,sirrors.com
   - DOMAIN,uldaens.com
   - DOMAIN,qidzwhfp.icu
-  - DOMAIN,aizhantj.com
   - DOMAIN,g41i.icu
   - DOMAIN,tweizai.top
   - DOMAIN,wcwkcus.top
@@ -53685,6 +53700,7 @@ payload:
   - DOMAIN,z.nowscore.com
   - DOMAIN,zt2088.com
   - DOMAIN,ztyumn.ifeng.com
+  - DOMAIN,a1.cyyangqiguan.com
   - DOMAIN,jbdch1.appmobile.cn
   - DOMAIN,lcd.aivote.com
   - DOMAIN,cnbd1.appmobile.cn
@@ -53721,7 +53737,6 @@ payload:
   - DOMAIN,a.qinghua5.com
   - DOMAIN,a.qncye.net
   - DOMAIN,a.qsjiajiao.com
-  - DOMAIN,a.quangushi.com
   - DOMAIN,a.qunzou.com
   - DOMAIN,a.rensheng5.com
   - DOMAIN,a.shenchuang.com
