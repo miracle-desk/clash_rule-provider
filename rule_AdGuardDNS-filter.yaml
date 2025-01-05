@@ -31889,6 +31889,7 @@ payload:
   - DOMAIN,ib.snssdk.com
   - DOMAIN,xlog.snssdk.com
   - DOMAIN,log.snssdk.com
+  - DOMAIN,cdn.q0losid.com
   - DOMAIN,tags.fullcontact.com
   - DOMAIN,matomo.akbal.dev
   - DOMAIN,sentry.pnblab.com
@@ -35476,6 +35477,8 @@ payload:
   - DOMAIN,d1udjti6mtxz9q.cloudfront.net
   - DOMAIN,tagman.britishairways.com
   - DOMAIN-SUFFIX,piwik.*
+  - DOMAIN,intake-analytics.wikimedia.org
+  - DOMAIN,lgforbes.akamaized.net
   - DOMAIN,event.wondershare.com
   - DOMAIN,collector.abc.net.au
   - DOMAIN,smetrics.kawai-juku.ac.jp
@@ -36318,7 +36321,6 @@ payload:
   - DOMAIN,track-srv.vietnamnet.vn
   - DOMAIN-SUFFIX,stats.zone-telechargement.*
   - DOMAIN,stats.tirexo.blue
-  - DOMAIN,intake-analytics.wikimedia.org
   - DOMAIN,tracking.univtec.com
   - DOMAIN,counter.sberbank.ru
   - DOMAIN,mxpl.9gag.com
@@ -38132,6 +38134,8 @@ payload:
   - DOMAIN,int.vlancaa.site
   - DOMAIN,int.vlancaa.fun
   - DOMAIN,tok.vaicore.xyz
+  - DOMAIN,collect.4gtv.tv
+  - DOMAIN,uaid.vtwenty.com
   - DOMAIN,telemetry.codefusion.technology
   - DOMAIN,events.watchtower.imdbtv.amazon.dev
   - DOMAIN,mobile-production.content-square.net
@@ -43924,6 +43928,7 @@ payload:
   - DOMAIN,ads.exakt24.se
   - DOMAIN,ads.expekt.se
   - DOMAIN,ads.fotosidan.se
+  - DOMAIN,ads.frihetsnytt.se
   - DOMAIN,ads.holid.io
   - DOMAIN,ads.leovegas.com
   - DOMAIN,ads.mainloop.net
@@ -47278,6 +47283,7 @@ payload:
   - DOMAIN,minimomo.club
   - DOMAIN,minimomo.fun
   - DOMAIN,miravay.org
+  - DOMAIN,mistyforestolqt.online
   - DOMAIN,miu78.me
   - DOMAIN,mizonevn.shop
   - DOMAIN,mkshopmobi.xyz
@@ -50161,6 +50167,11 @@ payload:
   - DOMAIN,vns86.oss-*.aliyuncs.com
   - DOMAIN,zhizhizhizhi.oss-*.aliyuncs.com
   - DOMAIN,cnzz.trafficmanager.net
+  - DOMAIN,lirretsn.com
+  - DOMAIN,nmzbrd.icu
+  - DOMAIN,airakgyl.com
+  - DOMAIN,scjtfh.xyz
+  - DOMAIN,cdyurlif.top
   - DOMAIN,y4l.icu
   - DOMAIN,drandoxo.com
   - DOMAIN,h5r.icu
