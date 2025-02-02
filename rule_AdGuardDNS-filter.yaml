@@ -36153,6 +36153,7 @@ payload:
   - DOMAIN,d1udjti6mtxz9q.cloudfront.net
   - DOMAIN,tagman.britishairways.com
   - DOMAIN-SUFFIX,piwik.*
+  - DOMAIN,log-upload-os.hoyoverse.com
   - DOMAIN,analytics.avcdn.net
   - DOMAIN,pbc.wsj.com
   - DOMAIN,tracking.api.shoppinggives.com
@@ -39113,7 +39114,6 @@ payload:
   - DOMAIN,apm-log-upload-os.hoyoverse.com
   - DOMAIN,devlog-upload-os.hoyoverse.com
   - DOMAIN,hkrpg-log-upload-os.hoyoverse.com
-  - DOMAIN,log-upload-os.hoyoverse.com
   - DOMAIN,minor-api-os.hoyoverse.com
   - DOMAIN,overseauspider.yuanshen.com
   - DOMAIN,sentry.eks.hoyoverse.com
@@ -45877,12 +45877,10 @@ payload:
   - DOMAIN,ad.eva.vn
   - DOMAIN,ad.happynest.vn
   - DOMAIN,ad.icheck.com.vn
-  - DOMAIN,ad.lapa.pub
   - DOMAIN,ad.phunuxuavanay.vn
   - DOMAIN,ad.sunflower.vn
   - DOMAIN,ad.vietbao.vn
   - DOMAIN,ad.vkool.net
-  - DOMAIN,ad.vkoolzzz.net
   - DOMAIN,ad.zinimedia.com
   - DOMAIN,adadmin.headlines.pw
   - DOMAIN,adapi.tuyensinh247.com
@@ -45891,7 +45889,6 @@ payload:
   - DOMAIN,addlog.thuvienphapluat.vn
   - DOMAIN,addtop.trangvangvietnam.com
   - DOMAIN,adhub.mobifone.vn
-  - DOMAIN,adjusts.info
   - DOMAIN,adm.phunusuckhoe.vn
   - DOMAIN,adm.phunuvagiadinh.vn
   - DOMAIN,admin.giaminhmedia.vn
@@ -45936,7 +45933,6 @@ payload:
   - DOMAIN,ads.ketnoitatca.net
   - DOMAIN,ads.kiemsat.vn
   - DOMAIN,ads.lamchame.vn
-  - DOMAIN,ads.laodongbinhduong.org.vn
   - DOMAIN,ads.laodongnghean.vn
   - DOMAIN,ads.markettimes.vn
   - DOMAIN,ads.marry.vn
@@ -45951,7 +45947,6 @@ payload:
   - DOMAIN,ads.sexyland.vn
   - DOMAIN,ads.songmoi.vn
   - DOMAIN,ads.suckhoegiadinh.com.vn
-  - DOMAIN,ads.thegioitiepthi.vn
   - DOMAIN,ads.thesaigontimes.vn
   - DOMAIN,ads.thitruongtaichinhtiente.vn
   - DOMAIN,ads.thvli.vn
@@ -45962,7 +45957,6 @@ payload:
   - DOMAIN,ads.vovlive.vn
   - DOMAIN,ads.xedoisong.vn
   - DOMAIN,ads.xemphimso.com
-  - DOMAIN,ads.xemtivisohd.net
   - DOMAIN,ads.zunia.vn
   - DOMAIN,ads1.careerbuilder.vn
   - DOMAIN,ads8.fpt.vn
@@ -45970,7 +45964,6 @@ payload:
   - DOMAIN,adserver.muaban.net
   - DOMAIN,adserver.trangphim.net
   - DOMAIN,adsgo.nhipcaudautu.vn
-  - DOMAIN,adsphim.lol
   - DOMAIN,adsplus.vn
   - DOMAIN,adsv2.autodaily.vn
   - DOMAIN,adsweb.vn
@@ -45991,9 +45984,7 @@ payload:
   - DOMAIN,advzone.ioe.vn
   - DOMAIN,adx.baolongan.vn
   - DOMAIN,adx.chinmedia.vn
-  - DOMAIN,adx.edutimes.com.vn
   - DOMAIN,adx.hoanggia.net.vn
-  - DOMAIN,adx.hongtinnhanh.com
   - DOMAIN,adx.kul.vn
   - DOMAIN,adx.phunuadong.vn
   - DOMAIN,adx.xemvtv.net
@@ -46001,7 +45992,6 @@ payload:
   - DOMAIN,aff.atp.vn
   - DOMAIN,aff2.linksht.online
   - DOMAIN,affiliate.chiaki.vn
-  - DOMAIN,ailamtrieuphu.com
   - DOMAIN,aj2393.online
   - DOMAIN,ak9.6895588.com
   - DOMAIN,alexajstrack.com
@@ -46014,7 +46004,6 @@ payload:
   - DOMAIN,analytic.vnanet.vn
   - DOMAIN,analytics-cds.mobiedu.vn
   - DOMAIN,analytics.admon.com.vn
-  - DOMAIN,analytics.aita.gov.vn
   - DOMAIN,analytics.amedigital.vn
   - DOMAIN,analytics.bachtuongphat.com
   - DOMAIN,analytics.bkav.com
@@ -46025,12 +46014,10 @@ payload:
   - DOMAIN,analytics.explus.vn
   - DOMAIN,analytics.fsoft.com.vn
   - DOMAIN,analytics.gotama.link
-  - DOMAIN,analytics.hapo.vn
   - DOMAIN,analytics.hebela.vn
   - DOMAIN,analytics.hub-js.com
   - DOMAIN,analytics.jamstackvietnam.com
   - DOMAIN,analytics.mobiedu.vn
-  - DOMAIN,analytics.molistar.com
   - DOMAIN,analytics.nhattao.com
   - DOMAIN,analytics.ntlc.com.vn
   - DOMAIN,analytics.pancake.vn
@@ -46045,13 +46032,11 @@ payload:
   - DOMAIN,analytics.vietnamfinance.vn
   - DOMAIN,analytics.vnpt.vn
   - DOMAIN,analytics.vnreview.vn
-  - DOMAIN,analytics.yts.vn
   - DOMAIN,analytics.zatomac.vn
   - DOMAIN,analytics.zim.vn
   - DOMAIN,api-logdev.sohatv.vn
   - DOMAIN,api.boclinkads.com
   - DOMAIN,api.moneyoyo.org
-  - DOMAIN,api.ozui.vn
   - DOMAIN,api2.boclinkads.com
   - DOMAIN,apia.headlines.pw
   - DOMAIN,apiv2.tiin.vn
@@ -46067,7 +46052,6 @@ payload:
   - DOMAIN,banner.trangvangvietnam.com
   - DOMAIN,banner.uto.vn
   - DOMAIN,beta-log.anninhthudo.vn
-  - DOMAIN,bgadx.com
   - DOMAIN,bi.vhost.vn
   - DOMAIN,bidgear-syndication.com
   - DOMAIN,btrack.homedy.com
@@ -46075,12 +46059,10 @@ payload:
   - DOMAIN,campaign.gitiho.com
   - DOMAIN,cdn-ads.thesaigontimes.vn
   - DOMAIN,cdn.adxcontent.com
-  - DOMAIN,cdn.api-connect.io
   - DOMAIN,cdn.qc24h.com
   - DOMAIN,cdn2.cache.vn
   - DOMAIN,cdptracker.hocmai.com.vn
   - DOMAIN,ch6p2aj2gh8zy5cm0px9ow7aj3tmzhtk6lzx2ch9xj7gx2jq1cj8v4jklz6b.me
-  - DOMAIN,chiasephim.xyz
   - DOMAIN,click.vieon.vn
   - DOMAIN,clicker.chiaki.vn
   - DOMAIN,clientinfo.phimmoizz.net
@@ -46090,11 +46072,8 @@ payload:
   - DOMAIN,core.vnecdn.com
   - DOMAIN,counter.24h.com.vn
   - DOMAIN,counter.ntdvn.com
-  - DOMAIN,counter.ntdvn.net
   - DOMAIN,cpx.vnecdn.com
-  - DOMAIN,cre-ads.com
   - DOMAIN,csmads.gameclick.vn
-  - DOMAIN,delecpuzz.com
   - DOMAIN,delivery.doisongphapluat.com.vn
   - DOMAIN,delivery.upremium.asia
   - DOMAIN,demopage.me
@@ -46116,7 +46095,6 @@ payload:
   - DOMAIN,go.vnecdn.com
   - DOMAIN,gtmjs.com
   - DOMAIN,h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me
-  - DOMAIN,hexapinow.xyz
   - DOMAIN,hit.123c.vn
   - DOMAIN,iads.staticscdn.net
   - DOMAIN,iads.vision
@@ -46124,7 +46102,6 @@ payload:
   - DOMAIN,interactive.tinnhanhchungkhoan.vn
   - DOMAIN,intranet.dcorp.com.vn
   - DOMAIN,invite.baomoi.com
-  - DOMAIN,k8trangphim.com
   - DOMAIN,ketquaxosotoancau.org
   - DOMAIN,kh.suno.vn
   - DOMAIN,kv-analytics.kiotviet.vn
@@ -46133,7 +46110,6 @@ payload:
   - DOMAIN,lamthong.net
   - DOMAIN,landingpagelagi.vn
   - DOMAIN,lg.lotus.vn
-  - DOMAIN,link.cado.pro
   - DOMAIN,live.careplusvn.com
   - DOMAIN,live.vnpgroup.net
   - DOMAIN,liveonline.nhanhoa.com
@@ -46212,7 +46188,6 @@ payload:
   - DOMAIN,m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me
   - DOMAIN,ma.tgdd.vn
   - DOMAIN,marketing.hub-js.com
-  - DOMAIN,marketing.itgeek.vn
   - DOMAIN,matomo.bantheme.xyz
   - DOMAIN,matomo.quan.hoabinh.vn
   - DOMAIN,mautic-learn.teky.edu.vn
@@ -46220,12 +46195,12 @@ payload:
   - DOMAIN,mautic.teky.edu.vn
   - DOMAIN,measure.pti.com.vn
   - DOMAIN,measure.vndirect.com.vn
-  - DOMAIN,media.dabong247.com
   - DOMAIN,menu.metu.vn
   - DOMAIN,microad.vn
   - DOMAIN,mkt.hoanghamobile.com
   - DOMAIN,mobileads.dieuviet.com
   - DOMAIN,monitor.teko.vn
+  - DOMAIN,motphimqq.pro
   - DOMAIN,mto.cgv.vn
   - DOMAIN,nct1.logging.nextsmarty.com
   - DOMAIN,newlog.daidoanket.vn
@@ -46252,13 +46227,10 @@ payload:
   - DOMAIN,qctt24h.24h.com.vn
   - DOMAIN,qcv5.blogtruyen.vn
   - DOMAIN,quangcao.24h.com.vn
-  - DOMAIN,quangcao.baovannghe.com.vn
   - DOMAIN,quangcao.fff.com.vn
-  - DOMAIN,quangcao247.com.vn
   - DOMAIN,quangcaococcoc.vn
   - DOMAIN,quangcaodantri.vn
   - DOMAIN,r.tinmoi24.vn
-  - DOMAIN,rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes
   - DOMAIN,report.mediahub.vn
   - DOMAIN,report.vnay.vn
   - DOMAIN,report2.mediahub.vn
@@ -46272,7 +46244,6 @@ payload:
   - DOMAIN,s.zzcdn.me
   - DOMAIN,s1.zzz.vn
   - DOMAIN,s6.textlink.vn
-  - DOMAIN,sda.tamdiem247.com
   - DOMAIN,sdk.moneyoyo.com
   - DOMAIN,sentry.mediacdn.vn
   - DOMAIN,seo.cloud.edu.vn
@@ -46300,7 +46271,6 @@ payload:
   - DOMAIN,stats.hstatic.net
   - DOMAIN,stats.osd.vn
   - DOMAIN,stats.petrotimes.vn
-  - DOMAIN,stats.tamdiem247.com
   - DOMAIN,stats.vietnammoi.vn
   - DOMAIN,stc-nas.nixcdn.com
   - DOMAIN,stc.nas.nixcdn.com
@@ -46314,7 +46284,6 @@ payload:
   - DOMAIN,sv-static-lottery.headlines.pw
   - DOMAIN,sv-static1-lottery.headlines.pw
   - DOMAIN,sv.isvn.space
-  - DOMAIN,syncwowsails.com
   - DOMAIN,t2zc6vo8zj2ch6sh6kvu5vq8cjz4iv8v2aj1ckjy8zktaj8vm6visk6als8l.me
   - DOMAIN,ta.toprework.vn
   - DOMAIN,tagging-qadkfoj6ha-as.a.run.app
@@ -46333,8 +46302,6 @@ payload:
   - DOMAIN,track.adshay.vn
   - DOMAIN,track.icheck.com.vn
   - DOMAIN,track.kyna.vn
-  - DOMAIN,track.lapa.pub
-  - DOMAIN,track.lemonnovel.com
   - DOMAIN,track.pnj.com.vn
   - DOMAIN,track.popsww.com
   - DOMAIN,track.saigon.pro
@@ -46344,7 +46311,6 @@ payload:
   - DOMAIN,tracker.anime47.com
   - DOMAIN,tracker.edupia.vn
   - DOMAIN,tracker.fado.vn
-  - DOMAIN,tracker.gigaphim.com
   - DOMAIN,tracker.phunusuckhoe.vn
   - DOMAIN,tracker.phunuvagiadinh.vn
   - DOMAIN,tracker.thichxemphim.net
@@ -46358,7 +46324,6 @@ payload:
   - DOMAIN,tracking.fff.com.vn
   - DOMAIN,tracking.gapone.vn
   - DOMAIN,tracking.hapiwork.vn
-  - DOMAIN,tracking.hongtinnhanh.com
   - DOMAIN,tracking.meta.vn
   - DOMAIN,tracking.phunuadong.vn
   - DOMAIN,tracking.saostar.vn
@@ -46367,7 +46332,6 @@ payload:
   - DOMAIN,tracking.tuyenquang.gov.vn
   - DOMAIN,tracking.tvet-vietnam.org
   - DOMAIN,tracking.vegaid.vn
-  - DOMAIN,tracking.vht.com.vn
   - DOMAIN,tracking.vietbao.vn
   - DOMAIN,tracking.viez.vn
   - DOMAIN,trackingapi.foody.vn
@@ -46393,7 +46357,6 @@ payload:
   - DOMAIN,vietnamdaily-log.kienthuc.net.vn
   - DOMAIN,vietnamdaily-log.trithuccuocsong.vn
   - DOMAIN,vietpub.com
-  - DOMAIN,vlxx.host
   - DOMAIN,vnadssb.com
   - DOMAIN,web-analytic.ghtk.vn
   - DOMAIN,web-analytics.mona.host
@@ -49523,6 +49486,7 @@ payload:
   - DOMAIN,telaagam.maxisl.vip
   - DOMAIN,telegram.app0w.ltd
   - DOMAIN,teleway.top
+  - DOMAIN,tempisite.com
   - DOMAIN,tescoshop.shop
   - DOMAIN,tet-lienquangarenavn.com
   - DOMAIN,tet2023.shop
@@ -50866,6 +50830,7 @@ payload:
   - DOMAIN,zingshop.net
   - DOMAIN,zla653.top
   - DOMAIN,zla963.top
+  - DOMAIN,zloweb.me
   - DOMAIN,zmomo.cc
   - DOMAIN,znavidsde.cfd
   - DOMAIN,zoneshewa.net
@@ -50881,6 +50846,7 @@ payload:
   - DOMAIN,vns86.oss-*.aliyuncs.com
   - DOMAIN,zhizhizhizhi.oss-*.aliyuncs.com
   - DOMAIN,cnzz.trafficmanager.net
+  - DOMAIN,feronyv.com
   - DOMAIN,tbbfdr.icu
   - DOMAIN,oveakmqk.com
   - DOMAIN,lsxvnzif.icu
@@ -55141,6 +55107,7 @@ payload:
   - DOMAIN,adro.ir
   - DOMAIN,affstat.digikala.com
   - DOMAIN,affiliate.digikala.com
+  - DOMAIN,bitad.ir
   - DOMAIN,binoads.ir
   - DOMAIN,bl9.ir
   - DOMAIN,backlink.ir
